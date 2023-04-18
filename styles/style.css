@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 header {
-  width: 100vw;
+  width: 96vw;
   height: 20vw;
   display: flex;
   padding-top: 1.5vw;
@@ -52,4 +52,27 @@ li {
 }
 p {
     margin-top: 0vw;
+}
+footer {
+  background-color: #457b9d;
+  width: 100vw;
+  padding-top: 0.5vw;
+}
+.date {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+}
+.date p {
+  margin-bottom: 0.5vw;
+}
+.dateActual{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 0.8vw;
+}
+.dateActual p {
+  color: yellow;
 }
