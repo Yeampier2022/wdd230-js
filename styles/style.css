@@ -5,7 +5,7 @@ body {
 }
 header {
   width: 96vw;
-  height: 20vw;
+  height: 16vw;
   display: flex;
   padding-top: 1.5vw;
   padding-bottom: 1.5vw;
@@ -15,8 +15,8 @@ header {
   border-radius: 0.5px;
 }
 img {
-  width: 15vw;
-  height: 18vw;
+  width: 12vw;
+  height: 13.5vw;
   padding: 1vw;
   box-shadow: 0.26vw 0.26vw 0.26vw 0.26vw #1d3557;
   background: #f1faee;
