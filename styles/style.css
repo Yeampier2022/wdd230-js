@@ -57,6 +57,7 @@ footer {
   background-color: #457b9d;
   width: 100vw;
   padding-top: 0.5vw;
+  box-shadow: 0.26vw 0.26vw 0.26vw 0.26vw #1d3557;
 }
 .date {
   width: 100vw;
