@@ -92,12 +92,13 @@ h1 {
 .container-p {
   background-color: bisque;
   padding: 15px;
+  border-radius: 20px;
 }
 .parrafo {
   text-align: left;
-  color: black;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-size: 20px;
 }
 .p-title {
   margin-left: 5px;
