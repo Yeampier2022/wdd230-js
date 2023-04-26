@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
 
+
+*{
+  box-sizing: border-box;
+
+}
 body {
   padding: 0px;
   margin: 0px;
@@ -8,7 +13,7 @@ body {
   grid-template-rows: auto auto 40vw;
 }
 header {
-  width: 96vw;
+  width: 100vw;
   height: 16vw;
   display: flex;
   padding-top: 1.5vw;
