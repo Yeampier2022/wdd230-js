@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
 
-
 body {
   padding: 0px;
   margin: 0px;
   box-sizing: content-box;
+  display: grid;
+  grid-template-rows: auto auto 40vw;
 }
 header {
   width: 96vw;
@@ -41,7 +42,7 @@ img {
   border-bottom: 0.2vw solid #e63946;
   padding-left: 0.5vw;
 }
-h3 {
+h2 {
   margin-bottom: 0vw;
   color: lightskyblue;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
@@ -51,10 +52,10 @@ li {
 }
 .Lesson {
   padding-bottom: 1vw;
-  border-bottom: 0.2vw solid #e63946;
 }
-p {
-    margin-top: 0vw;
+.p-div {
+  border-top: 0.2vw solid #e63946;
+  margin-top: 0vw;
 }
 footer {
   background-color: #457b9d;
@@ -66,12 +67,11 @@ footer {
   width: 100vw;
   display: flex;
   justify-content: center;
-
 }
 .date p {
   margin-bottom: 0.5vw;
 }
-.dateActual{
+.dateActual {
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -79,4 +79,12 @@ footer {
 }
 .dateActual p {
   color: yellow;
+} 
+
+@media only screen and (max-width: 768px) {
+  
+  body {
+    display: grid;
+    grid-template-rows: auto auto 70vw;
+}
 }
