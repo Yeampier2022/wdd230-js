@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
 
-
-*{
+* {
   box-sizing: border-box;
-
 }
 body {
   padding: 0px;
@@ -22,6 +20,7 @@ header {
   padding-right: 2vw;
   background-color: #457b9d;
   border-radius: 0.5px;
+  box-shadow: 0.26vw 0.26vw 0.26vw 0.26vw #1d3557;
 }
 img {
   width: 12vw;
@@ -84,12 +83,11 @@ footer {
 }
 .dateActual p {
   color: yellow;
-} 
+}
 
 @media only screen and (max-width: 768px) {
-  
   body {
     display: grid;
     grid-template-rows: auto auto 70vw;
-}
+  }
 }
