@@ -106,6 +106,30 @@ h1 {
 .p-title {
   margin-left: 5px;
 }
+footer {
+  width: 100vw;
+  background-color: #457b9d;
+  margin-top: 2vw;
+  padding-top: 0.5vw;
+  box-shadow: 0.26vw 0.26vw 0.26vw 0.26vw #1d3557;
+}
+.date {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.date p {
+  margin-bottom: 0.5vw;
+}
+.dateActual {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 0.8vw;
+}
+.dateActual p {
+  color: yellow;
+}
 
 @media screen and (max-width: 640px) {
   h1 {
