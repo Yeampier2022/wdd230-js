@@ -8,7 +8,7 @@ body {
   margin: 0px;
   box-sizing: content-box;
   display: grid;
-  grid-template-rows: auto auto 40vw;
+  grid-template-rows: auto auto 20vw;
 }
 header {
   width: 100vw;
@@ -46,7 +46,8 @@ img {
   font-weight: bolder;
 }
 .titleWdd {
-  width: 100vw;
+  display: flex;
+  justify-content: center;
   padding-top: 0.5vw;
   border-bottom: 0.2vw solid #e63946;
   padding-left: 0.5vw;
@@ -60,9 +61,13 @@ li {
   font-size: large;
 }
 .Lesson {
+  display: flex;
+  justify-content: center;
   padding-bottom: 1vw;
 }
 .p-div {
+  display: flex;
+  justify-content: center;
   border-top: 0.2vw solid #e63946;
   margin-top: 0vw;
 }
@@ -91,6 +96,12 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    display: grid;
+    grid-template-rows: auto auto 70vw;
+  }
+}
+@media only screen and (max-width: 1000px) {
   body {
     display: grid;
     grid-template-rows: auto auto 70vw;
