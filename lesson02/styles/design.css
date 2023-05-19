@@ -27,24 +27,39 @@ h1 {
   width: 100%;
   height: 80px
 }
-.now {
+.botom {
+  display: grid;
   grid-area: 1/3;
+  width: 100px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  background: aliceblue;
+}
+.botom2 {
+  display: grid;
+  grid-area: 1/4;
+  width: 130px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  background: aliceblue;
+}
+.now {
   text-decoration: none;
   align-items: center;
   display: grid;
-  padding: 20px;
   border-radius: 20vw;
   color: black;
+  font-size: 14px;
 }
 .seccion {
-  grid-area: 1/4;
   text-decoration: none;
   align-items: center;
-  display: grid;
   border-radius: 20vw;
   color: black;
   padding: 10px;
-  
+  font-size: 14px;
 }
 .header-likedin img {
   width: 50px;
