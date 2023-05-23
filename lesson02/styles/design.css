@@ -25,7 +25,7 @@ h1 {
   grid-template-columns: 20% 15% 32% auto;
   padding: 1vw;
   width: 100%;
-  height: 80px
+  height: 80px;
 }
 .botom {
   display: grid;
@@ -34,7 +34,8 @@ h1 {
   height: 40px;
   align-self: center;
   border-radius: 100px;
-  background: aliceblue;
+  background-color: white;
+  border: 1px solid white;
 }
 .botom2 {
   display: grid;
@@ -43,7 +44,23 @@ h1 {
   height: 40px;
   align-self: center;
   border-radius: 100px;
-  background: aliceblue;
+  border-style: solid;
+  border: 1px solid #0a66c2;
+  background: white;
+}
+.botom2 a {
+  color: #0b4987;
+}
+.botom a {
+  color: black;
+}
+.botom:hover,
+.botom:visited:hover {
+  background-color: #f5f5f5;
+}
+.botom-2:hover,
+.botom-2:visited:hover {
+  background-color: #f0f8ff;
 }
 .now {
   text-decoration: none;
@@ -57,7 +74,7 @@ h1 {
   text-decoration: none;
   align-items: center;
   border-radius: 20vw;
-  color: black;
+  color: #404040;
   padding: 10px;
   font-size: 14px;
 }
@@ -65,7 +82,110 @@ h1 {
   width: 50px;
   padding: 20px;
 }
+.welcome {
+  padding: 15px;
+}
+.welcome-title {
+  color: #8f5849;
+  margin-bottom: 0px;
+}
+.card-seccion {
+  padding: 20px;
+}
+.phone{
+  margin-top: 0px;
+}
+.email:hover,
+.email:visited:hover {
+  background-color: #f0f8ff;
+}
+.password:hover,
+.password:visited:hover {
+  background-color: #f0f8ff;
+}
+h3 {
+  color: #404040;
+}
+.seccion-login {
+  width: 400px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid #004182;
+  background: #0a66c2;
+}
+.seccion-login a {
+  color: white;
+}
+.botom-google a {
+  color: #404040;
+}
+.olvidado {
+  color: #004182;
+}
+hr {
+  border-color: #404040;
+  width: 85%;
+}
+.seccion-card {
+  padding: 20px;
+}
+.google {
+  padding: 20px;
+}
+.botom-google {
+  margin-bottom: 10px;
+  width: 400px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid #004182;
+  background: white;
+}
+.botom-google:hover,
+.botom-google:visited:hover {
+  background-color: #f5f5f5;
+}
+.seccion-login-new {
+  margin-bottom: 10px;
+  width: 400px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid #004182;
+  background: white;
+}
+.seccion-login-new a {
+  color: #404040;
+}
+.seccion-login-new:hover,
+.seccion-login-new:visited:hover {
+  background-color: #f5f5f5;
+}
+.main-image {
+  display: flex;
+  justify-content: center;
+}
+.lapto{
+  width: 300px;
+}
+.conatiner-main {
+  padding: 50px;
+}
+.main-i {
+display: flex;
+justify-content: center;
+margin-bottom: 60px;
+}
+.main-i a {
+  font-size: 60px;
+}
+.seccion-instagram {
 
+}
 .title-card {
   margin-top: 10px;
   height: 30px;
