@@ -92,7 +92,7 @@ h1 {
 .card-seccion {
   padding: 20px;
 }
-.phone{
+.phone {
   margin-top: 0px;
 }
 .email:hover,
@@ -123,6 +123,8 @@ h3 {
 }
 .olvidado {
   color: #004182;
+  cursor: pointer;
+
 }
 hr {
   border-color: #404040;
@@ -169,23 +171,126 @@ hr {
   display: flex;
   justify-content: center;
 }
-.lapto{
+.lapto {
   width: 300px;
 }
+.container-1 {
+  padding: 35px;
+}
 .conatiner-main {
-  padding: 50px;
+  border: 1px solid #004182;
 }
 .main-i {
-display: flex;
-justify-content: center;
-margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
 .main-i a {
   font-size: 60px;
 }
-.seccion-instagram {
+.email-i {
+  width: 320px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: #FAFAFA;
 
 }
+.password-i {
+  width: 320px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: #FAFAFA;
+}
+.button-i {
+  width: 320px;
+  margin-bottom: 10px;
+  background: #4bb4f8;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+.seccion-instagram {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card-seccion-i {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.p-seccion {
+  margin-bottom: 0px;
+  color: #60749d;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.p-olvidado {
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+.seccion-new {
+  padding: 50px;
+  border: 1px solid #004182;
+  margin-top: 30px;
+}
+.registrate {
+  color: #60749d;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.descargar {
+  justify-content: center;
+  display: flex;
+}
+.img-store {
+  width: 100px;
+  margin-right: 55px;
+  margin-left: 55px;
+  cursor: pointer;
+}
+.img-microsoft {
+  width: 100px;
+  height: 60px;
+  cursor: pointer;
+}
+.card-app {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.img-main-t {
+  display: flex;
+  justify-content: center;
+}
+.twitter {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+.title-t {
+  display: flex;
+  justify-content: center;
+}
+.seccion-t {
+  padding: 20px;
+}
+.button-goggle, .button-apple {
+  margin-bottom: 10px;
+  width: 400px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid #004182;
+  background: white;
+}
+
 .title-card {
   margin-top: 10px;
   height: 30px;
