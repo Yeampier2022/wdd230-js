@@ -124,7 +124,6 @@ h3 {
 .olvidado {
   color: #004182;
   cursor: pointer;
-
 }
 hr {
   border-color: #404040;
@@ -192,14 +191,13 @@ hr {
   width: 320px;
   margin-bottom: 10px;
   border-radius: 5px;
-  background: #FAFAFA;
-
+  background: #fafafa;
 }
 .password-i {
   width: 320px;
   margin-bottom: 10px;
   border-radius: 5px;
-  background: #FAFAFA;
+  background: #fafafa;
 }
 .button-i {
   width: 320px;
@@ -208,7 +206,6 @@ hr {
   color: white;
   border-radius: 20px;
   cursor: pointer;
-
 }
 .seccion-instagram {
   display: flex;
@@ -225,12 +222,10 @@ hr {
   color: #60749d;
   font-weight: bold;
   cursor: pointer;
-
 }
 .p-olvidado {
   margin-bottom: 20px;
   cursor: pointer;
-
 }
 .seccion-new {
   padding: 50px;
@@ -241,7 +236,6 @@ hr {
   color: #60749d;
   font-weight: bold;
   cursor: pointer;
-
 }
 .descargar {
   justify-content: center;
@@ -266,6 +260,7 @@ hr {
 .img-main-t {
   display: flex;
   justify-content: center;
+  height: 200px;
 }
 .twitter {
   display: flex;
@@ -279,17 +274,117 @@ hr {
 }
 .seccion-t {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
-.button-goggle, .button-apple {
+.button-goggle {
   margin-bottom: 10px;
-  width: 400px;
+  width: 320px;
   height: 40px;
   align-self: center;
   border-radius: 100px;
   border-style: solid;
-  border: 1px solid #004182;
+  border: 1px solid darkgrey;
   background: white;
+  cursor: pointer;
 }
+.button-apple {
+  justify-content: start;
+  display: flex;
+  margin-bottom: 10px;
+  width: 320px;
+  height: 40px;
+  align-self: center;
+  border-radius: 150px;
+  border-style: solid;
+  border: 1px solid darkgrey;
+  background: white;
+  align-self: center;
+  cursor: pointer;
+}
+.button-apple :hover,
+.button-apple :visited:hover {
+  background-color: #E6E7E7;
+  width: 100%;
+  margin-left: 0px!important;
+  border-radius: 10px;
+
+}
+.b-apple {
+  color: black;
+  margin-left: 48px;
+  text-decoration: none;
+}
+.line-t {
+  margin-bottom: 30px;
+}
+.register-t {
+  display: flex;
+  justify-content: center;
+}
+.enter-t {
+  width: 320px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: #fafafa;
+}
+.next-t {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.next {
+  margin-bottom: 10px;
+  width: 320px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid darkgrey;
+  background: #272C30;
+  margin-bottom: 20px;
+  color: white;
+  cursor: pointer;
+
+}
+.forget {
+  margin-bottom: 10px;
+  width: 320px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid darkgrey;
+  background: white;
+  margin-bottom: 20px;
+  color: #272C30;
+  cursor: pointer;
+}
+.forget :hover,
+.forget :visited:hover {
+  background-color: red;
+  width: 500px;
+  border-radius: 20px;
+}
+.next-button{
+  color: white;
+  text-decoration: none;
+}
+.forget-button{
+  color: #272C30;
+  text-decoration: none;
+}
+.register {
+  display: flex;
+  justify-content: center;
+}
+.register-new{
+  margin-left: 5px;
+  color: #004182;
+  cursor: pointer;
+}
+
 
 .title-card {
   margin-top: 10px;
