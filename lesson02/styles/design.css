@@ -20,6 +20,9 @@ h1 {
   display: flex;
   margin: 0px;
 }
+.card-presetacion{
+  padding: 20px;
+}
 .header-likedin {
   display: grid;
   grid-template-columns: 20% 15% 32% auto;
@@ -130,10 +133,10 @@ hr {
   width: 85%;
 }
 .seccion-card {
-  padding: 20px;
+  margin-top: 20px;
 }
 .google {
-  padding: 20px;
+  margin-top: 20px;
 }
 .botom-google {
   margin-bottom: 10px;
@@ -311,9 +314,11 @@ hr {
 
 }
 .b-apple {
+  display: flex;
   color: black;
   margin-left: 48px;
   text-decoration: none;
+  align-items: center;
 }
 .line-t {
   margin-bottom: 30px;
@@ -329,43 +334,46 @@ hr {
   border-radius: 5px;
   background: #fafafa;
 }
-.next-t {
-  display: flex;
+.google-2 {
+  padding: 20px;
   justify-content: center;
+  display: flex;
   flex-direction: column;
 }
-.next {
+.botom-google-2 {
   margin-bottom: 10px;
   width: 320px;
   height: 40px;
   align-self: center;
   border-radius: 100px;
   border-style: solid;
-  border: 1px solid darkgrey;
-  background: #272C30;
-  margin-bottom: 20px;
+  border: 1px solid #004182;
+  background: black;
+  color: white
+}
+.seccion-2{
   color: white;
-  cursor: pointer;
+  text-decoration: none;
+}
+
+.botom-google-2:hover,
+.botom-google-2:visited:hover {
+  background: #272C30;
 
 }
-.forget {
+.seccion-login-new-2 {
   margin-bottom: 10px;
   width: 320px;
   height: 40px;
   align-self: center;
   border-radius: 100px;
   border-style: solid;
-  border: 1px solid darkgrey;
+  border: 1px solid #004182;
   background: white;
-  margin-bottom: 20px;
-  color: #272C30;
-  cursor: pointer;
 }
-.forget :hover,
-.forget :visited:hover {
-  background-color: red;
-  width: 500px;
-  border-radius: 20px;
+.seccion-login-new-2:hover,
+.seccion-login-new-2:visited:hover {
+  background-color: #E6E7E7;
 }
 .next-button{
   color: white;
@@ -383,94 +391,6 @@ hr {
   margin-left: 5px;
   color: #004182;
   cursor: pointer;
-}
-
-
-.title-card {
-  margin-top: 10px;
-  height: 30px;
-  width: 100%;
-  background-color: cadetblue;
-  border-radius: 10px 10px 0px 0px;
-}
-.info-card {
-  width: 100%;
-  height: 60px;
-  background-color: bisque;
-}
-.name-card {
-  margin-top: 0px;
-  margin-bottom: 5px;
-}
-.mail-card {
-  margin: 0px;
-}
-.header-card {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
-  display: flex;
-  background-color: beige;
-}
-
-.header-card a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-}
-.header-card img {
-  width: 80px;
-  height: 80px;
-  border-radius: 10px;
-}
-
-.header-right {
-  float: right;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.img-main {
-  width: 100%;
-  height: 300px;
-}
-.img-main-title {
-  display: flex;
-  justify-content: center;
-  color: seagreen;
-  margin-bottom: 3px;
-}
-.img-logo {
-  width: 100%;
-}
-.parrafo-img {
-  display: flex;
-  justify-content: center;
-  color: seagreen;
-  margin-top: 0px;
-  margin-bottom: 5px;
-}
-.container-p {
-  background-color: bisque;
-  padding: 15px;
-  border-radius: 20px;
-}
-.parrafo {
-  text-align: left;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 20px;
-}
-.p-title {
-  margin-left: 5px;
-}
-.p-title {
-  margin-left: 5px;
 }
 footer {
   width: 100vw;
