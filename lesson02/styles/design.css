@@ -9,6 +9,7 @@ body {
 .title {
   width: 100vw;
   background-color: darkcyan;
+  margin-bottom: 20px;
 }
 h1 {
   display: flex;
@@ -21,12 +22,36 @@ h1 {
   margin: 0px;
 }
 .card-presetacion{
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.card-p{
+  border-style: solid;
+  border-color: darkseagreen;
+}
+.nombre-card{
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+.title-nombre-card{
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  height: 40px;
+}
+.informacion-card{
+  background-color: beige;
+  border: 1px solid darkseagreen;
+  border-radius: 10px;
+}
+.name-page{
+  margin: 0px;
+  margin-bottom: 10px;
 }
 .header-likedin {
   display: grid;
   grid-template-columns: 20% 15% 32% auto;
-  padding: 1vw;
   width: 100%;
   height: 80px;
 }
@@ -110,7 +135,7 @@ h3 {
   color: #404040;
 }
 .seccion-login {
-  width: 400px;
+  width: 350px;
   height: 40px;
   align-self: center;
   border-radius: 100px;
@@ -134,13 +159,19 @@ hr {
 }
 .seccion-card {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .google {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .botom-google {
   margin-bottom: 10px;
-  width: 400px;
+  width: 350px;
   height: 40px;
   align-self: center;
   border-radius: 100px;
@@ -154,7 +185,7 @@ hr {
 }
 .seccion-login-new {
   margin-bottom: 10px;
-  width: 400px;
+  width: 350px;
   height: 40px;
   align-self: center;
   border-radius: 100px;
@@ -347,7 +378,7 @@ hr {
   align-self: center;
   border-radius: 100px;
   border-style: solid;
-  border: 1px solid #004182;
+  border: 1px solid darkgrey;
   background: black;
   color: white
 }
@@ -368,7 +399,7 @@ hr {
   align-self: center;
   border-radius: 100px;
   border-style: solid;
-  border: 1px solid #004182;
+  border: 1px solid darkgrey;
   background: white;
 }
 .seccion-login-new-2:hover,
