@@ -1,0 +1,76 @@
+@media only screen and (min-width: 1200px) {
+  /*Deskopt*/
+  .title {
+    height: 100px;
+  }
+  .grid-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 960px;
+  }
+  .card-presetacion-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: grid;
+    grid-area: 1/3;
+  }
+  .card-p {
+    height: 970px;
+  }
+  .card-p-2 {
+    height: 970px;
+  }
+  .card-p-3 {
+    height: 970px;
+  }
+  .card-seccion {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+  }
+  .header-likedin {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin-top: 25px;
+    justify-content: space-around;
+  }
+  .olvidado {
+    color: #004182;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+  }
+  .img-main-t {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 40px;
+  }
+  .lapto {
+    width: 250px;
+  }
+  .card-app {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .img-store {
+    height: 40px;
+  }
+  .conatiner-main {
+    height: 440px;
+  }
+  .seccion-new {
+    justify-content: center;
+    display: flex;
+  }
+  .img-main-t {
+    height: 150px;
+  }
+  .name {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+}

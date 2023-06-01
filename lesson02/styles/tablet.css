@@ -1,0 +1,33 @@
+@media only screen and (min-width: 768px) {
+  /*table*/
+  .title{
+    height: 100px;
+  }
+  .name {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .grid-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .card-presetacion-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-column: 1/3;
+  
+  }
+  .card-p-2 {
+    border-style: solid;
+    border-color: darkseagreen;
+    height: 990px;
+  
+  }
+  .card-presetacion {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 1000px;
+  }
+  }
