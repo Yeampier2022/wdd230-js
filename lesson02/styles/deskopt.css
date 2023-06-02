@@ -22,6 +22,9 @@
   }
   .card-p-3 {
     height: 970px;
+
+      background-color: white;
+   
   }
   .card-seccion {
     display: flex;
