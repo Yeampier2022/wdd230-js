@@ -96,6 +96,7 @@ h1 {
   border-style: solid;
   border: 1px solid #0a66c2;
   background: white;
+  margin-left: 30px;
 }
 .botom2 a {
   color: #0b4987;
@@ -449,7 +450,7 @@ hr {
 footer {
   width: 100vw;
   background-color: #008B8B;
-  margin-top: 2vw;
+  margin-top: 40px;
   padding-top: 0.5vw;
   box-shadow: 0.26vw 0.26vw 0.26vw 0.26vw #1d3557;
 }
