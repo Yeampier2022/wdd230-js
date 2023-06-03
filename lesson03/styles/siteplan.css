@@ -1,16 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+body {
+  font-family: "Montserrat";
+}
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
+  background-color: #f07167;
 }
 
 .header a {
   float: left;
-  color: black;
+  color: #2f5249;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -21,27 +26,208 @@
 }
 
 .header a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #fed9b7;
+  color: #f07167;
 }
 
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #bde8d3;
   color: white;
 }
 
 .header-right {
   float: right;
 }
+.title {
+  text-align: center;
+  color: #20463d;
+}
+.siteplan {
+  padding: 20px 40px;
+  background: #fff9eb;
+}
+.siteplan-design {
+  padding: 20px 0px;
+  background: #fff9eb;
+}
 
+.sitePurpose {
+  text-align: justify;
+}
+h2 {
+  text-align: center;
+  color: #20463d;
+}
+h4 {
+  text-align: center;
+  margin: 0px;
+  color: #20463d;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo img {
+  width: 300px;
+  border-radius: 30px;
+  border: 5px solid #bee9d4;
+}
+/* target */
+.scenary {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.title-audience {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.person1 img,
+.person2 img {
+  width: 80px;
+}
+/* design*/
+.table-main {
+  display: flex;
+  justify-content: center;
+}
+.Typography {
+  margin-bottom: 30px;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #bde8d3;
+}
+.color1 {
+  background-color: #f07167;
+}
+.color2 {
+  background-color: #fff9eb;
+}
+.color3 {
+  background-color: #264a41;
+}
+.color4 {
+  color: white;
+  background-color: black;
+}
+.color5 {
+  background-color: #bde8d3;
+}
+h3 {
+  text-align: center;
+  color: #20463d;
+}
+h1 {
+  color: #20463d;
+}
+.heading {
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #f07167;
+}
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
     display: block;
     text-align: left;
   }
-  
+
   .header-right {
     float: none;
+  }
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .person1 img,
+  .person2 img {
+    width: 180px;
+  }
+  .table-main {
+    width: 100%;
+  }
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .font1 {
+    font-size: 40px;
+  }
+  .font2 {
+    font-size: 40px;
+  }
+  .font3 {
+    font-size: 35px;
+  }
+  .font4 {
+    font-size: 30px;
+  }
+  .font5 {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /*Deskopt*/
+  .siteplan {
+    padding: 20px 100px;
+    background: #fff9eb;
+  }
+  .person1 img,
+  .person2 img {
+    width: 250px;
+  }
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .table-main {
+    width: 100%;
+  }
+  .font1 {
+    font-size: 40px;
+  }
+  .font2 {
+    font-size: 40px;
+  }
+  .font3 {
+    font-size: 35px;
+  }
+  .font4 {
+    font-size: 30px;
+  }
+  .font5 {
+    font-size: 16px;
+  }
+  .f-m {
+    margin-top: 100px;
   }
 }
