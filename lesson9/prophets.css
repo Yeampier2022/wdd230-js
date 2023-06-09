@@ -1,0 +1,65 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.cards section {
+  border: 1px solid black;
+  background-color: bisque;
+  padding: 30px;
+  width: 300px;
+  margin: 20px;
+}
+
+.cards img {
+  width: 90%;
+  box-shadow: 5px 10px 8px darkgray;
+}
+
+#view {
+  text-align: center;
+  font-size: 3em;
+}
+
+#cards,
+#list {
+  border: 3px solid black;
+  padding: 0 8px;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px 3px #ccc;
+  border-radius: 6px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+table {
+  width: 75%;
+  margin: 50px auto;
+  font-size: 1.2em;
+}
+
+td {
+  padding: 5px;
+  display: block;
+}
+
+tr:nth-of-type(even) {
+  background-color: #ccc;
+}
+footer {
+  text-align: center;
+}
+
+p {
+  text-align: start;
+  margin-left: 20px;
+  color: saddlebrown
+}
+.filter {
+  font-size: 16px!important;
+}
