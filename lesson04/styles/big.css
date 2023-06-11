@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+@media screen and (min-width: 1200px) {
+  nav ul {
+    flex-direction: row;
+  }
+
+  nav ul li {
+    text-align: center;
+    flex: 1;
+  }
+
+  #navbar {
+    display: flex;
+  }
+
+  .main {
+    display: grid;
+    grid-template-areas:
+      "e h h sp"
+      "w h h sp"
+      "j n n sp";
+  }
+  #a {
+    grid-area: h;
+    position: relative;
+  }
+  #b {
+    grid-area: e;
+  }
+  #c {
+    grid-area: w;
+  }
+  #d {
+    grid-area: n;
+  }
+  #j {
+    grid-area: j;
+    align-content: center;
+    position: relative;
+  }
+  #spotlights {
+    grid-area: sp;
+    display: flex;
+    display: grid;
+    grid-template-areas:
+      "s1"
+      "s2"
+      "s3";
+  }
+  #hamburger-menu {
+    display: none;
+  }
+  #e {
+    grid-area: s1;
+  }
+
+  #f {
+    grid-area: s2;
+  }
+  #g {
+    display: inline;
+    grid-area: s3;
+  }
+  #welcome {
+    position: absolute;
+    font-size: 2.5em;
+    top: 5%;
+    left: 0%;
+    background-color: #bde8d3;
+    color: white;
+  }
+  #welcome:hover {
+    background-color: #f07167;
+    color: white;
+  }
+  .join {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: #f9edcc;
+    color: #264a41;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    align-content: center;
+    font-family: "Raleway";
+  }
+
+  .start {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: #f9edcc;
+    color: #264a41;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    align-content: center;
+    font-family: "Raleway";
+  }
+  .join:hover {
+    background-color: #264a41;
+    color: white;
+  }
+  .start:hover {
+    background-color: #264a41;
+    color: white;
+  }
+  .main-form {
+    display: grid;
+    grid-template-areas:
+      "text text"
+      "f1   f3  ";
+    align-content: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 1000px;
+    grid-gap: 40px;
+  }
+
+  .membership {
+    grid-area: 1/2;
+    min-width: 40rem;
+  }
+  form fieldset {
+    min-width: 40rem;
+  }
+  .images:hover {
+    border-radius: 20%;
+  }
+  .directory-list {
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
+    font-size: 1.3em;
+  }
+  .address {
+    padding-left: 12.5rem;
+  }
+  .contact {
+    padding-left: 22rem;
+  }
+  
+}

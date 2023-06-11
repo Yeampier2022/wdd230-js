@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Home Page For Chamber of Commerve Site" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/medium.css" />
+    <link rel="stylesheet" href="./styles/big.css" />
+    <link rel=" icon" href="./favicon.ico" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Chamber Of Commerce</title>
+  </head>
+  <body>
+    <header>
+      <div id="greet">
+        Join us This Friday from 5-7pm for our Chamber meet and greet!
+      </div>
+      <a id="logo_link" href="index.html">
+        <img
+          class="logo-2"
+          src="../lesson03/images/Colorful Ilustrated Adventure Logo.png"
+          alt="Logo"
+        />
+      </a>
+      <h1 class="title">Borgelle adventure Chamber Of Commerce</h1>
+      <time id="currentyear"></time>
+      <div id="media">
+        <a id="fb" href="https://facebook.com">
+          <img class="logo" src="images/facebook.png" alt="Facebook Logo" />
+        </a>
+        <a id="insta" href="https://instagram.com">
+          <img class="logo" src="images/instagram.png" alt="Instagram Logo" />
+        </a>
+      </div>
+    </header>
+
+    <div class="header-today">
+      <p class="date"></p>
+      <button id="hamburger-menu">
+        <span id="menu-closed">&equiv;</span>
+        <span class="material-symbols-outlined" id="menu-open"> close </span>
+      </button>
+    </div>
+    <nav>
+      <ul id="navbar">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+      </ul>
+    </nav>
+    <main class="thank-you">
+      <h1>
+        Welcome to the Chamber of Commerce! We Look Forward to working with you!
+      </h1>
+    </main>
+    <footer class="foot">
+      <a id="logo_foot" href="index.html">
+        <img
+          class="logof"
+          src="../lesson03/images/Colorful Ilustrated Adventure Logo.png"
+          alt=" Logo"
+        />
+      </a>
+      <div class="contact">
+        <p>Email: reservas@ctg.com</p>
+        <p>Cell: 208-206-2881</p>
+        <p>Office : 8:30am-5:30pm Monday - Saturday</p>
+      </div>
+      <div class="address">
+        <p>Torre 13, M97P+42G, Avenida 13, Maracaibo 4001, Zulia</p>
+        <a
+          id="map"
+          href="https://www.google.com/maps/place/Gilbert,+AZ/@33.2951952,-111.8340026,12z/data=!3m1!4b1!4m6!3m5!1s0x872ba90de045ae43:0x6453ae977fd9ef7e!8m2!3d33.3528264!4d-111.789027!16zL20vMHFwbDk"
+        >
+          <img
+            class="logom"
+            style="width: 52px"
+            src="./images/mapas-de-google.png"
+            alt="Map Logo"
+          />
+        </a>
+      </div>
+
+      <div class="info">
+        <p>&copy; Borgelle adventure Chamber Of Commerce</p>
+        <p>Yeampier Huerta</p>
+        <p>WDD230</p>
+      </div>
+
+      <div id="last">
+        <hr id="line" />
+        <p>
+          &copy; <span id="currentyear"></span> | Yeampier Huerta | Maracaibo |
+          Last Updated: <span id="lastmodified"></span>
+        </p>
+      </div>
+    </footer>
+    <script defer src="./scripts/header-footer.js"></script>
+    <script defer src=" ./scripts/main.js"></script>
+    <script defer src="./scripts/windchill.js"></script>
+  </body>
+</html>

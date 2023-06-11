@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover Page For Chamber of Commerve Site"
+    />
+    <title>Discover</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/medium.css" />
+    <link rel="stylesheet" href="./styles/big.css" />
+  </head>
+  <body>
+    <header>
+      <div id="greet">
+        Join us This Friday from 5-7pm for our Chamber meet and greet!
+      </div>
+      <a id="logo_link" href="index.html">
+        <img
+          class="logo-2"
+          src="../lesson03/images/Colorful Ilustrated Adventure Logo.png"
+          alt="Logo"
+        />
+      </a>
+      <h1 class="title">Borgelle adventure Chamber Of Commerce</h1>
+      <time id="currentyear"></time>
+      <div id="media">
+        <a id="fb" href="https://facebook.com">
+          <img class="logo" src="images/facebook.png" alt="Facebook Logo" />
+        </a>
+        <a id="insta" href="https://instagram.com">
+          <img class="logo" src="images/instagram.png" alt="Instagram Logo" />
+        </a>
+      </div>
+    </header>
+
+    <div class="header-today">
+      <p class="date"></p>
+      <button id="hamburger-menu">
+        <span id="menu-closed">&equiv;</span>
+        <span class="material-symbols-outlined" id="menu-open"> close </span>
+      </button>
+    </div>
+    <nav>
+      <ul id="navbar">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+      </ul>
+    </nav>
+    <h1 id="form-header">
+      Become a Part of Borgelle adventure Chamber Of Commerce
+    </h1>
+
+    <main class="main-form">
+      <div class="grid-1">
+        <form method="get" action="thankyou.html">
+          <label class="person"
+            >First Name &#42;<input type="text" name="fname" required
+          /></label>
+          <label class="person"
+            >Last Name &#42;<input type="text" name="lname" required
+          /></label>
+          <label class="person"
+            >Cell Phone &#42;<input
+              type="tel"
+              name="phone"
+              placeholder="412188975"
+              required
+          /></label>
+          <label class="person"
+            >Email &#42;<input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+          /></label>
+          <label class="person"
+            >Business<input
+              type="text"
+              name="business-name"
+              pattern="[A-Za-z -]{7,}"
+            />
+          </label>
+          <h3>Membership Levels ;</h3>
+          <label class="member"
+            ><input
+              type="radio"
+              name="mlevel"
+              value="non-profit"
+            />Non-Profit</label
+          >
+          <label class="member"
+            ><input type="radio" name="mlevel" value="bronze" />Bronze</label
+          >
+          <label class="member"
+            ><input type="radio" name="mlevel" value="silver" />Silver</label
+          >
+          <label class="member"
+            ><input type="radio" name="mlevel" value="gold" />Gold</label
+          >
+          <p>Buisness Description:</p>
+          <label class="member">
+            <textarea
+              id="background"
+              name="story"
+              placeholder="Add Informacion"
+              rows="5"
+              cols="33"
+            >
+            </textarea>
+          </label>
+          <input type="hidden" id="formLoadTime" name="current" value="" />
+          <input type="submit" value="Join Now!" class="submit-button" />
+        </form>
+      </div>
+
+      <div class="membership">
+        <h2>Membership levels benefits</h2>
+        <ul>
+          <li>For non profit organizations and there is no fee</li>
+        </ul>
+        <h3>Bronze Membership</h3>
+        <ul>
+          <li>15% discount on events</li>
+          <li>10% discount on advertising</li>
+          <li>Fee of $50/month</li>
+        </ul>
+        <h3>Silver Membership</h3>
+        <ul>
+          <li>25% discount on events</li>
+          <li>15% discount on advertising</li>
+          <li>Free participation in the trade fair</li>
+          <li>Fee of $100/month</li>
+        </ul>
+        <h3>Gold Membership</h3>
+        <ul>
+          <li>50% discount on events</li>
+          <li>50% discount on advertising</li>
+          <li>Free participation in the trade fair</li>
+          <li>5 free featured ads per year</li>
+          <li>1 free training per quarter</li>
+          <li>Fee of $250/month</li>
+        </ul>
+      </div>
+    </main>
+    <footer class="foot">
+      <a id="logo_foot" href="index.html">
+        <img
+          class="logof"
+          src="../lesson03/images/Colorful Ilustrated Adventure Logo.png"
+          alt=" Logo"
+        />
+      </a>
+      <div class="contact">
+        <p>Email: reservas@ctg.com</p>
+        <p>Cell: 208-206-2881</p>
+        <p>Office : 8:30am-5:30pm Monday - Saturday</p>
+      </div>
+      <div class="address">
+        <p>Torre 13, M97P+42G, Avenida 13, Maracaibo 4001, Zulia</p>
+        <a
+          id="map"
+          href="https://www.google.com/maps/place/Gilbert,+AZ/@33.2951952,-111.8340026,12z/data=!3m1!4b1!4m6!3m5!1s0x872ba90de045ae43:0x6453ae977fd9ef7e!8m2!3d33.3528264!4d-111.789027!16zL20vMHFwbDk"
+        >
+          <img
+            class="logom"
+            style="width: 52px"
+            src="./images/mapas-de-google.png"
+            alt="Map Logo"
+          />
+        </a>
+      </div>
+
+      <div class="info">
+        <p>&copy; Borgelle adventure Chamber Of Commerce</p>
+        <p>Yeampier Huerta</p>
+        <p>WDD230</p>
+      </div>
+
+      <div id="last">
+        <hr id="line" />
+        <p>
+          &copy; <span id="currentyear"></span> | Yeampier Huerta | Maracaibo |
+          Last Updated: <span id="lastmodified"></span>
+        </p>
+      </div>
+    </footer>
+    <script defer src="./scripts/header-footer.js"></script>
+    <script defer src=" ./scripts/main.js"></script>
+    <script defer src="./scripts/visit.js"></script>
+    <script src="./scripts/lazy.js" defer></script>
+  </body>
+</html>

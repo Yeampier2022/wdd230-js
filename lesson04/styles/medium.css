@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main {
+    display: grid;
+    grid-template-areas:
+      "m1 m1 m1"
+      "m2 m2 m2"
+      "m3 m3 m3"
+      "m4 m4 m4"
+      "m5 m5 m6";
+  }
+  #a {
+    grid-area: m1;
+    position: relative;
+  }
+  #b {
+    grid-area: m5;
+  }
+  #c {
+    grid-area: m6;
+  }
+  #d {
+    grid-area: m2;
+  }
+  #j {
+    display: flex;
+    grid-area: m4;
+    position: relative;
+  }
+  #spotlights {
+    grid-area: m3;
+    display: flex;
+    display: grid;
+    margin: 0.5rem;
+    grid-template-areas: "s1 s2";
+  }
+  #e {
+    grid-area: s1;
+  }
+
+  #f {
+    grid-area: s2;
+  }
+  #hamburger-menu {
+    display: inline;
+  }
+  #welcome {
+    position: absolute;
+    font-size: 2.5em;
+    padding: 1rem;
+    top: 10%;
+    width: fit-content;
+    left: 0%;
+    background-color: #053c5e;
+    color: white;
+  }
+  #welcome:hover {
+    background-color: #f9edcc;
+    color: #053c5e;
+  }
+  .join {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: #f9edcc;
+    color: #053c5e;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    align-content: center;
+    font-family: "Raleway";
+  }
+
+  .start {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: #f9edcc;
+    color: #053c5e;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    align-content: center;
+    font-family: "Raleway";
+  }
+  .join:hover {
+    background-color: #db4c40;
+    color: white;
+  }
+  .start:hover {
+    background-color: #db4c40;
+    color: white;
+  }
+
+  .images:hover {
+    border-radius: 20%;
+  }
+  .main-form {
+    align-content: center;
+    background-color: #f9edcc;
+    padding: 40px;
+    margin-top: -14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 1000px;
+    grid-gap: 20px;
+  }
+  .grid-1 {
+    display: grid;
+    grid-area: 1/1;
+  }
+  .membership{
+    display: grid;
+    grid-area: 1/2;
+  }
+}
