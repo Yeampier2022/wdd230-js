@@ -12,21 +12,25 @@ function displayResults(weatherData) {
     0
   )}</strong>`;
 
-  // You can use @2x or @4x to make the icon bigger, or omit it for the standard size
   const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`;
   const desc = weatherData.weather[0].description;
   const wind_value = weatherData.wind.speed;
 
-
+  const datefield = document.querySelector("time");
+  const now = new Date();
+  const fulldate = new Intl.DateTimeFormat("en-US", {
+    dateStyle: "full",
+  }).format(now);
+  console.log(datefield);
+  datefield.textContent = fulldate;
   weatherIcon.setAttribute("src", iconsrc);
   weatherIcon.setAttribute("alt", desc);
   captionDesc.textContent = desc;
-  
+
   windspeed.textContent = wind_value;
 
   const windChillSpan = document.querySelector("#windchill");
 
-  // Set up the wind chill content
   let windchill = "N/A";
   if (wind_value >= 3.0 && weatherData.main.temp.toFixed(0) <= 50) {
     let chill = Math.round(
@@ -56,14 +60,7 @@ async function apiFetch() {
   }
 }
 ``;
+
 apiFetch();
 
 // yeampier
-
-const datefield = document.querySelector("time");
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", {
-  dateStyle: "full",
-}).format(now);
-console.log(datefield);
-datefield.textContent = fulldate;

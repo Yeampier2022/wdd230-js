@@ -47,13 +47,13 @@
   }
   #welcome {
     position: absolute;
-    font-size: 2.5em;
+    font-size: 22px;
     padding: 1rem;
     top: 10%;
     width: fit-content;
     left: 0%;
-    background-color: #053c5e;
     color: white;
+    margin-bottom: 10px;
   }
   #welcome:hover {
     background-color: #f9edcc;

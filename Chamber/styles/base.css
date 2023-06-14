@@ -518,4 +518,7 @@ form label.select {
  {
   display: none;
 }
+#welcome {
+  font-size: 14px;
+}
 }
