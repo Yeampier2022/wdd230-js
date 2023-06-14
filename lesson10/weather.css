@@ -1,0 +1,21 @@
+h1 {
+  color: brown;
+}
+#weather_icon {
+  width: 100px;
+}
+hr {
+  width: 100%;
+}
+figure {
+    background-color: bisque;
+    margin-left: 0px;
+    width: 120px;
+}
+p {
+    color: red;
+}
+h2 {
+    color: brown;
+}
+

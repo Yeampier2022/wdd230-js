@@ -16,19 +16,13 @@ function displayResults(weatherData) {
   const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`;
   const desc = weatherData.weather[0].description;
   const wind_value = weatherData.wind.speed;
+
+
   weatherIcon.setAttribute("src", iconsrc);
   weatherIcon.setAttribute("alt", desc);
   captionDesc.textContent = desc;
+  
   windspeed.textContent = wind_value;
-
-  // yeampier
-  const datefield = document.querySelector("time");
-  const now = new Date();
-  const fulldate = new Intl.DateTimeFormat("en-US", {
-    dateStyle: "full",
-  }).format(now);
-  console.log(datefield);
-  datefield.textContent = fulldate;
 
   const windChillSpan = document.querySelector("#windchill");
 
@@ -63,3 +57,13 @@ async function apiFetch() {
 }
 ``;
 apiFetch();
+
+// yeampier
+
+const datefield = document.querySelector("time");
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", {
+  dateStyle: "full",
+}).format(now);
+console.log(datefield);
+datefield.textContent = fulldate;
