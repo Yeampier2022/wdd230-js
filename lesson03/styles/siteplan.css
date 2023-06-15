@@ -87,6 +87,9 @@ h4 {
 .person2 img {
   width: 80px;
 }
+.person1 {
+  margin-right: 2vw;
+}
 /* design*/
 .table-main {
   display: flex;

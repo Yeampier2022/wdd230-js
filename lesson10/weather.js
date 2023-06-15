@@ -36,3 +36,21 @@ async function apiFetch() {
 }
 
 apiFetch();
+
+
+ // ejercicio
+var a = 6;
+var b = 8;
+var c = 3;
+
+var d = a < (b + c); // true
+var e = b > c * 5; // false
+var f = (c+3) > a; // false
+
+var op1 = d && e; // false
+var op2 = f && e;// false
+var op3 = (d || f) && (!e || f); // false and // false 
+console.log("Op1: " + op1); //false 
+console.log("Op2: " + op2);//false
+console.log("Op3: " + op3);//true
+
