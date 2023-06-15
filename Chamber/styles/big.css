@@ -94,6 +94,12 @@
     align-content: center;
     font-family: "Raleway";
   }
+  #stats {
+    width: 800px;
+  }
+  .discover {
+    margin-left: 30%;
+  }
 
   .start {
     display: flex;
@@ -153,5 +159,7 @@
   .contact {
     padding-left: 22rem;
   }
-  
+  .font {
+    font-size: 20px;
+  }
 }

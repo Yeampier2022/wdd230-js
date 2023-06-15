@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 820px) and (max-width: 1199px) {
   body {
     background-color: #f9edcc;
     font-family: "Montserrat";
@@ -123,8 +123,16 @@
     display: grid;
     grid-area: 1/1;
   }
-  .membership{
+  .membership {
     display: grid;
     grid-area: 1/2;
+  }
+  .font {
+    font-size: 18px;
+  }
+  #stats {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
   }
 }
