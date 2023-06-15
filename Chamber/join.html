@@ -85,7 +85,7 @@
             >Email &#42;<input
               type="email"
               name="email"
-              placeholder="Email Address"
+              placeholder="example@gmail.com"
               required
           /></label>
           <label class="person"
@@ -112,14 +112,14 @@
           <label class="member"
             ><input type="radio" name="mlevel" value="gold" />Gold</label
           >
-          <p>Buisness Description:</p>
-          <label class="member">
+          <p></p>
+          <label class="member-2">Buisness Description:
             <textarea
               id="background"
               name="story"
-              placeholder="Add Informacion"
               rows="5"
               cols="33"
+               pattern="[a-zA-Z\s\-]{7,}" 
             >
             </textarea>
           </label>
@@ -195,8 +195,7 @@
       <div id="last">
         <hr id="line" />
         <p>
-          &copy; <span id="currentyear"></span> | Yeampier Huerta | Maracaibo |
-          Last Updated: <span id="lastmodified"></span>
+          &copy; <span id="profile"></span><span id="dates"></span>
         </p>
       </div>
     </footer>

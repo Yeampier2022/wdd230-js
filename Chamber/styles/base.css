@@ -344,6 +344,9 @@ form fieldset,
   width: 100%;
   max-width: 30rem;
 }
+.member-2  {
+  font-size: 1vw;
+}
 
 form label.person {
   display: block;

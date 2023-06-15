@@ -1,10 +1,22 @@
-//footer
+
+
+let Name = "Yeampier H. Fernandez";
+let Country = "Venezuela";
 const today = new Date();
-document.querySelector("#currentyear").textContent = today.getFullYear();
+const day = today.getDate();
+const month = today.getMonth() + 1;
+const year = today.getFullYear();
+const hour = today.getHours();
+const min = today.getMinutes()
+const seconds = today.getSeconds()
+const Year = document.querySelector("#profile").textContent = `  ${year} | ${Name} | ${Country} `
+const Fecha = document.querySelector("#dates").textContent=`Last Updated: ${day}/${month}/${year} ${year} ${hour}:${min}:${seconds}`
 
-document.querySelector("#lastmodified").textContent = document.lastModified;
 
-const datefield = document.querySelector("time");
+
+
+
+  const datefield = document.querySelector("time");
   const now = new Date();
   const fulldate = new Intl.DateTimeFormat("en-US", {
     dateStyle: "full",

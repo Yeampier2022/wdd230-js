@@ -16,13 +16,9 @@ function displayResults(weatherData) {
   const desc = weatherData.weather[0].description;
   const wind_value = weatherData.wind.speed;
 
-  const datefield = document.querySelector("time");
-  const now = new Date();
-  const fulldate = new Intl.DateTimeFormat("en-US", {
-    dateStyle: "full",
-  }).format(now);
-  console.log(datefield);
-  datefield.textContent = fulldate;
+
+
+
   weatherIcon.setAttribute("src", iconsrc);
   weatherIcon.setAttribute("alt", desc);
   captionDesc.textContent = desc;
@@ -63,4 +59,6 @@ async function apiFetch() {
 
 apiFetch();
 
-// yeampier
+
+
+
