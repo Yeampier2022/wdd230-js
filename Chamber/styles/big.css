@@ -126,15 +126,11 @@
     color: white;
   }
   .main-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 900px;
-    grid-gap: 40px;
-    padding: 40px;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    margin-bottom: 40px;
   }
-
   .membership {
-    grid-area: 1/2;
     max-width: none;
     height: 600px;
     width: 600px;
@@ -171,5 +167,7 @@
   .submit-button {
     margin-top: 20px;
   }
- 
+  .grid-1 {
+    width: 600px;
+  }
 }
