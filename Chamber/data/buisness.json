@@ -15,7 +15,7 @@
             "streetAddress":"1245 E Warner Rd ",
             "cityStateZip":"Gilbert, AZ 85296",
             "phoneNumber":"(480) 545-8542",
-            "websiteURL":"https://www.westernskiesgolf.com/",
+            "websiteURL":"www.westernskiesgolf.com/",
             "imageURL":"./images/western.webp",
             "membershipLevel":"silver",
             "alt_text":"Western Skies Logo"
@@ -25,7 +25,7 @@
             "streetAddress":"726 N Greenfield Rd, Suite 117",
             "cityStateZip":"Gilbert, AZ 85234",
             "phoneNumber":"480-685-9696",
-            "websiteURL":"https://www.paulkellymaxface.com",
+            "websiteURL":"www.paulkellymaxface.com",
             "imageURL":"./images/kelly.webp",
             "membershipLevel":"gold",
             "alt_text":"Kelly Maxillofacial Logo"
@@ -92,7 +92,7 @@
         },
 
         {
-            "name":"* All Buisnesses with a blue background and gold borders In the Grid View are Gold Members of the chamber. In the List view these member will simply have (Gold Member) displayed after their buisness name",
+            "name":"* All Buisnesses with a orangered background and gold borders In the Grid View are Gold Members of the chamber. In the List view these member will simply have (Gold Member) displayed after their buisness name",
             "streetAddress":"",
             "cityStateZip":"",
             "phoneNumber":"",

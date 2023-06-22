@@ -502,6 +502,31 @@ form label.select {
  p {
   font-weight: bolder;
 }
+.contact1 {
+  width: 100%;
+  background-image: url("../images/background.png");
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #264A41;
+}
+.contact2 {
+  padding: 8vw;
+  width: 300px;
+  color: #264A41;
+
+}
+.h1-left{
+  text-align: left;
+  color: #264A41;
+
+}
+.site-title{
+  font-size: 20px;
+  color: #264A41;
+
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
