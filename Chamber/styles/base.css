@@ -499,6 +499,9 @@ form label.select {
   justify-content: center;
   margin-bottom: 40px;
 }
+ p {
+  font-weight: bolder;
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
