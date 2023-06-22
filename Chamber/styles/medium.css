@@ -153,4 +153,7 @@
   .member-2 {
     font-size: 16px;
   }
+  .imgthank img {
+    width: 600px;
+  }
 }
