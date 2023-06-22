@@ -1,7 +1,7 @@
 var noww = new Date();
 var datetimeString = noww.toLocaleDateString() + " " + noww.toLocaleTimeString();
-document.getElementById("formLoadTime").value = datetimeString;
-
+const prueba = document.getElementById("formLoadTime").value = datetimeString;
+prueba.style.color = red;
 
 document.getElementById("last_updated").innerHTML = "Last Updated: " + new Date(document.lastModified).toLocaleString() + "...  WDD230";
 

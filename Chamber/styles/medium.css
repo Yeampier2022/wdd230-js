@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
-@media screen and (min-width: 820px) and (max-width: 1199px) {
+@media screen and (min-width: 800px) and (max-width: 1199px) {
   body {
     background-color: #f9edcc;
     font-family: "Montserrat";
@@ -22,13 +22,13 @@
     grid-area: m5;
   }
   #c {
+    display: grid;
     grid-area: m6;
   }
   #d {
     grid-area: m2;
   }
   #j {
-    display: flex;
     grid-area: m4;
     position: relative;
   }
@@ -50,14 +50,12 @@
     display: inline;
   }
   #welcome {
-    position: absolute;
     font-size: 22px;
     padding: 1rem;
-    top: 10%;
+    top: 6%;
     width: fit-content;
-    left: 0%;
+    left: 25%;
     color: white;
-    margin-bottom: 10px;
   }
   #welcome:hover {
     background-color: #f9edcc;
@@ -91,7 +89,7 @@
     border-radius: 5px;
     margin: 0;
     position: absolute;
-    top: 65%;
+    top: 45%;
     left: 45%;
     align-content: center;
     font-family: "Raleway";
@@ -134,10 +132,25 @@
     align-content: center;
     display: flex;
     flex-direction: column;
-    margin-left: 2.5%;
-
+    margin: 3%;
   }
   .discover {
-    margin-left: 2.5%;
+    margin: 3%;
+  }
+  .directory-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+    width: 850px;
+  }
+  #weather {
+    max-width: 175px;
+  text-align: center;
+  display: flex;
+  justify-self: center;
+  }
+  .member-2 {
+    font-size: 16px;
   }
 }

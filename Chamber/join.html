@@ -34,8 +34,8 @@
           alt="Logo"
         />
       </a>
-      <h1 class="title">Gilbert  Chamber Of Commerce</h1>
-      <h5  class="font"></h5>
+      <h1 class="title">Gilbert Chamber Of Commerce</h1>
+      <h5 class="font"></h5>
       <div id="media">
         <a id="fb" href="https://facebook.com">
           <img class="logo" src="images/facebook.png" alt="Facebook Logo" />
@@ -61,18 +61,16 @@
         <li><a href="directory.html">Directory</a></li>
       </ul>
     </nav>
-    <h1 id="form-header">
-      Become a Part of Gilbert  Chamber Of Commerce
-    </h1>
+    <h1 id="form-header">Become a Part of Gilbert Chamber Of Commerce</h1>
 
     <main class="main-form">
       <div class="grid-1">
         <form method="get" action="thankyou.html">
           <label class="person"
-            >First Name &#42;<input type="text" name="fname" required
+            >First Name &#42;<input type="text" name="fname" required placeholder="Name"
           /></label>
           <label class="person"
-            >Last Name &#42;<input type="text" name="lname" required
+            >Last Name &#42;<input type="text" name="lname" required placeholder="Lastname"
           /></label>
           <label class="person"
             >Cell Phone &#42;<input
@@ -113,48 +111,65 @@
             ><input type="radio" name="mlevel" value="gold" />Gold</label
           >
           <p></p>
-          <label class="member-2">Buisness Description:
-            <textarea
-              id="background"
-              name="story"
-              rows="5"
-              cols="33"
-               pattern="[a-zA-Z\s\-]{7,}" 
-            >
-            </textarea>
-          </label>
-          <input type="hidden" id="formLoadTime" name="current" value="" />
-          <input type="submit" value="Join Now!" class="submit-button" />
+          <label class="member-2">Buisness Description: </label><br />
+          <br />
+
+          <textarea
+            id="background"
+            name="story"
+            rows="5"
+            cols="30"
+            pattern="[a-zA-Z\s\-]{7,}"
+          >
+          </textarea
+          ><br />
+          <input
+            type="hidden"
+            id="formLoadTime"
+            name="current"
+            value="Que hay aqui"
+          />
+          <button type="submit" class="submit-button">Join Now!</button>
         </form>
       </div>
 
       <div class="membership">
-        <h2>Membership levels benefits</h2>
-        <ul>
-          <li>For non profit organizations and there is no fee</li>
-        </ul>
-        <h3>Bronze Membership</h3>
-        <ul>
-          <li>15% discount on events</li>
-          <li>10% discount on advertising</li>
-          <li>Fee of $50/month</li>
-        </ul>
-        <h3>Silver Membership</h3>
-        <ul>
-          <li>25% discount on events</li>
-          <li>15% discount on advertising</li>
-          <li>Free participation in the trade fair</li>
-          <li>Fee of $100/month</li>
-        </ul>
-        <h3>Gold Membership</h3>
-        <ul>
-          <li>50% discount on events</li>
-          <li>50% discount on advertising</li>
-          <li>Free participation in the trade fair</li>
-          <li>5 free featured ads per year</li>
-          <li>1 free training per quarter</li>
-          <li>Fee of $250/month</li>
-        </ul>
+        <div>
+          <h2>Membership levels benefits</h2>
+          <ul>
+            <li>For non profit organizations and there is no fee</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Bronze Membership</h3>
+          <ul>
+            <li>15% discount on events</li>
+            <li>10% discount on advertising</li>
+            <li>Fee of $50/month</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Silver Membership</h3>
+          <ul>
+            <li>25% discount on events</li>
+            <li>15% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>Fee of $100/month</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Gold Membership</h3>
+          <ul>
+            <li>50% discount on events</li>
+            <li>50% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>5 free featured ads per year</li>
+            <li>1 free training per quarter</li>
+            <li>Fee of $250/month</li>
+          </ul>
+        </div>
       </div>
     </main>
     <footer class="foot">
@@ -194,7 +209,7 @@
 
       <div id="last">
         <hr id="line" />
-        <p  class="font">
+        <p class="font">
           &copy; <span id="profile"></span><span id="dates"></span>
         </p>
       </div>
@@ -203,5 +218,6 @@
     <script defer src=" ./scripts/main.js"></script>
     <script defer src="./scripts/visit.js"></script>
     <script src="./scripts/lazy.js" defer></script>
+    <script src="./scripts/hidden.js" defer></script>
   </body>
 </html>

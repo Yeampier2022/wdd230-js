@@ -96,10 +96,9 @@
   }
   #stats {
     width: 800px;
-    margin-left: 30%;
   }
   .discover {
-    margin-left: 30%;
+    width: 800px;
   }
 
   .start {
@@ -128,19 +127,17 @@
   }
   .main-form {
     display: grid;
-    grid-template-areas:
-      "text text"
-      "f1   f3  ";
-    align-content: center;
-    width: 100%;
-    justify-content: space-between;
-    height: 1000px;
+    grid-template-columns: 1fr 1fr;
+    height: 900px;
     grid-gap: 40px;
+    padding: 40px;
   }
 
   .membership {
     grid-area: 1/2;
-    min-width: 40rem;
+    max-width: none;
+    height: 600px;
+    width: 600px;
   }
   form fieldset {
     min-width: 40rem;
@@ -163,4 +160,16 @@
   .font {
     font-size: 20px;
   }
+  .discover-daddy {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .member-2 {
+    font-size: 16px;
+  }
+  .submit-button {
+    margin-top: 20px;
+  }
+ 
 }
