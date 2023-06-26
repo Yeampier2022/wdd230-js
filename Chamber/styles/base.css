@@ -207,17 +207,18 @@ footer {
 
 .contact {
   grid-area: c;
-  padding-top: 4rem;
+  padding: 10px;
 }
 
 .info {
   grid-area: s;
-  padding-top: 4rem;
+  padding: 10px;
 }
 
 #last {
   grid-area: y;
   text-align: center;
+  margin-top: 60px;
 }
 
 #landscape {
@@ -446,7 +447,7 @@ form label.select {
   border: 5px solid black;
   width: 300px;
   background-color: #db4c40;
-  color: white;
+  color: black;
   padding: 1rem;
   margin: 0.51rem;
 }
@@ -456,7 +457,13 @@ form label.select {
   background-color: #bde8d3;
 }
 .directory-cards a {
-  color: white;
+  color: black;
+  font-size: 18px;
+}
+.directory-cards p {
+  font-size: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .directory-list {
@@ -494,12 +501,12 @@ form label.select {
 .font {
   font-size: 16px;
 }
-.imgthank{
+.imgthank {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
 }
- p {
+p {
   font-weight: bolder;
 }
 .contact1 {
@@ -509,25 +516,21 @@ form label.select {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #264A41;
+  color: #264a41;
 }
 .contact2 {
   padding: 8vw;
   width: 300px;
-  color: #264A41;
-
+  color: #264a41;
 }
-.h1-left{
+.h1-left {
   text-align: left;
-  color: #264A41;
-
+  color: #264a41;
 }
-.site-title{
+.site-title {
   font-size: 20px;
-  color: #264A41;
-
+  color: #264a41;
 }
-
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .main-form {
