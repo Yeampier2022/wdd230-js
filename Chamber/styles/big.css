@@ -72,11 +72,11 @@
     top: 5%;
     left: 0%;
     background-color: #bde8d3;
-    color: white;
+    color: black;
   }
   #welcome:hover {
     background-color: #f07167;
-    color: white;
+    color: black;
   }
   .join {
     display: flex;
