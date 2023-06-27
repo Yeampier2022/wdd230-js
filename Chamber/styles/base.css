@@ -426,18 +426,23 @@ form label.select {
   width: 100%;
   text-align: center;
 }
+#directory-selector button {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
 
 #directory-selector button {
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 5px;
-  background-color: grey;
+  background-color: #BDE8D3;
   border: 1px black solid;
 }
 
 #directory-selector button.active {
   background-color: #F07167;
-  color: black;
+  color: #264A41;
 }
 
 .directory-cards {
