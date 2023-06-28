@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
+:root {
+  --bg-color:  #FFF9EB;
+}
+
 @media screen and (min-width: 1200px) {
+
+
   body {
-    background-color: #f9edcc;
+    background-color: var(--bg-color);
     font-family: "Montserrat";
   }
   nav ul {
@@ -28,20 +34,25 @@
   #a {
     grid-area: h;
     position: relative;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
   #b {
     grid-area: e;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
   #c {
     grid-area: w;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
   #d {
     grid-area: n;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
   #j {
     grid-area: j;
     align-content: center;
     position: relative;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
   #spotlights {
     grid-area: sp;
@@ -57,32 +68,30 @@
   }
   #e {
     grid-area: s1;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
 
   #f {
     grid-area: s2;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
   #g {
     display: inline;
     grid-area: s3;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
   #welcome {
     position: absolute;
     font-size: 2.5em;
     top: 5%;
     left: 0%;
-    background-color: #bde8d3;
-    color: black;
-  }
-  #welcome:hover {
-    background-color: #f07167;
     color: black;
   }
   .join {
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    background-color: #f9edcc;
+    background-color: var(--bg-color);
     color: #264a41;
     font-size: 1.5em;
     padding: 10px 10px;
@@ -105,7 +114,7 @@
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    background-color: #f9edcc;
+    background-color: var(--bg-color);
     color: #264a41;
     font-size: 1.5em;
     padding: 10px 10px;
@@ -147,11 +156,14 @@
     padding: 1rem;
     font-size: 1.3em;
   }
-  .address {
-    padding-left: 12.5rem;
-  }
   .contact {
-    padding-left: 22rem;
+    /* margin-right: 10px; */
+  }
+  .address {
+    /* margin-right: 10px; */
+  }
+  .info {
+    /* margin-right: 10px; */
   }
   .font {
     font-size: 20px;
@@ -176,5 +188,12 @@
   .contact2 {
     padding: 2vw;
     width: 800px;
+  }
+  .logo_foot {
+    grid-area: logo;
+    width: 100px;
+  }
+  .logom {
+    width: 50px
   }
 }

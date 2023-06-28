@@ -1,6 +1,18 @@
 {
   "businesses": [
     {
+      "name": "All about you",
+      "streetAddress": "1592 N Tustin St c, Orange",
+      "cityStateZip": "Gilbert, AZ 85234",
+      "phoneNumber": "(480) 100-1558",
+      "websiteURL": "https://aayss.com/",
+      "imageURL": "./images/3.png",
+      "membershipLevel": "gold",
+      "alt_text": "Gecko Grill Logo",
+      "target": "_blank"
+    },
+    
+    {
       "name": "Gecko Grill",
       "streetAddress": "4341 E. Baseline Rd.",
       "cityStateZip": "Gilbert, AZ 85234",
@@ -9,17 +21,6 @@
       "imageURL": "./images/gecko.webp",
       "membershipLevel": "gold",
       "alt_text": "Gecko Grill Logo",
-      "target": "_blank"
-    },
-    {
-      "name": "Western Skies Golf Club",
-      "streetAddress": "1245 E Warner Rd ",
-      "cityStateZip": "Gilbert, AZ 85296",
-      "phoneNumber": "(480) 545-8542",
-      "websiteURL": "https://www.westernskiesgolf.com/",
-      "imageURL": "./images/western.webp",
-      "membershipLevel": "silver",
-      "alt_text": "Western Skies Logo",
       "target": "_blank"
     },
     {
@@ -67,17 +68,6 @@
       "target": "_blank"
     },
     {
-      "name": "Top Golf",
-      "streetAddress": "1689 S. SanTan Village Pkwy",
-      "cityStateZip": "Gilbert AZ 85295",
-      "phoneNumber": "(480) 878-6657",
-      "websiteURL": "https://topgolf.com/",
-      "imageURL": "./images/topgolf.webp",
-      "membershipLevel": "gold",
-      "alt_text": "Top Golf Logo",
-      "target": "_blank"
-    },
-    {
       "name": "Jamba Juice",
       "streetAddress": "1555 n. gilbert rd.ste. b-106",
       "cityStateZip": "Gilbert, AZ 85234",
@@ -99,16 +89,59 @@
       "alt_text": "Habit Logo",
       "target": "_blank"
     },
-
     {
-      "name": "* All Buisnesses with a orangered background and gold borders In the Grid View are Gold Members of the chamber. In the List view these member will simply have (Gold Member) displayed after their buisness name",
-      "streetAddress": "",
-      "cityStateZip": "",
-      "phoneNumber": "",
-      "websiteURL": "",
-      "imageURL": "",
+      "name": "Gilbertaz",
+      "streetAddress": "90 E. Civic Center Drive",
+      "cityStateZip": "Gilbert, AZ 85296",
+      "phoneNumber": "(480) 503-6700",
+      "websiteURL": "https://www.gilbertaz.gov/",
+      "imageURL": "./images/webbanner-townlogo-new.png",
       "membershipLevel": "gold",
-      "alt_text": "Description of layout",
+      "alt_text": "Habit Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "DeBellevue Global Marketing Agency",
+      "streetAddress": "2975 South Market St.",
+      "cityStateZip": "Gilbert, AZ 85295",
+      "phoneNumber": "480.788.8999",
+      "websiteURL": "https://debellevueglobal.com/",
+      "imageURL": "./images/DeBellevue-web.png",
+      "membershipLevel": "gold",
+      "alt_text": "Habit Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "We are san tan",
+      "streetAddress": "2975 South Market St.",
+      "cityStateZip": "Gilbert, AZ 85295",
+      "phoneNumber": "(480) 726-1114",
+      "websiteURL": "https://www.santanford.com/",
+      "imageURL": "./images/webbannerlogo-santan-ford.png",
+      "membershipLevel": "gold",
+      "alt_text": "Habit Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "Phoeni mesa gateway airport",
+      "streetAddress": "2010 Arizona Ave",
+      "cityStateZip": "Gilbert, AZ 41295",
+      "phoneNumber": "(480) 152-2089",
+      "websiteURL": "https://www.gatewayairport.com/",
+      "imageURL": "./images/phoenixmesawebbanner.png",
+      "membershipLevel": "gold",
+      "alt_text": "Habit Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "ASU",
+      "streetAddress": "525 S. Forest Ave., Suite 150.",
+      "cityStateZip": "Gilbert, AZ 41295",
+      "phoneNumber": "(480) 484-5768",
+      "websiteURL": "https://www.asu.edu/",
+      "imageURL": "./images/ASU-sunburst-logo.png",
+      "membershipLevel": "gold",
+      "alt_text": "Habit Logo",
       "target": "_blank"
     }
   ]

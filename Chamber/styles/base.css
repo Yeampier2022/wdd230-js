@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
+:root {
+  --bg-color: #fff9eb;
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -11,7 +14,7 @@ body header {
   align-items: center;
   justify-items: center;
   text-align: center;
-  background-color: #f07167;
+  background-color: var(--bg-color);
 }
 #logo_link {
   display: flex;
@@ -73,7 +76,7 @@ nav a {
 .header-today {
   display: flex;
   justify-content: space-between;
-  background-color: #db4c40;
+  background-color: #fff9eb;
   color: white;
   text-align: center;
   font-weight: 300;
@@ -85,7 +88,6 @@ nav a {
 }
 h5 {
   grid-area: 2/2;
-  margin-bottom: 20px;
   color: #264a41;
 }
 .logoHeader {
@@ -102,14 +104,14 @@ time {
 }
 
 body {
-  background-color: #f9edcc;
+  background-color: var(--bg-color);
   font-family: "Montserrat";
 }
 .box {
   min-height: 10em;
   align-content: center;
   text-align: center;
-  background-color: #93baab;
+  background-color: #bde8d3;
   color: white;
   padding: 0.2rem;
   margin: 0.5rem;
@@ -128,26 +130,31 @@ body {
   grid-area: s1;
   padding: 0;
   position: relative;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 #b {
   grid-area: s2;
   padding: 0;
   color: black;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 #c {
   grid-area: s3;
   color: black;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 #d {
   grid-area: s4;
   color: black;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 #e {
   grid-area: s5;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 #hamburger-menu {
-  background-color: #172121;
+  background-color: #264a41;
   font-size: 2rem;
   border: 1px solid black;
   color: white;
@@ -167,61 +174,42 @@ body {
 
 #navbar.menu-active {
   display: flex;
+  
 }
 
 #menu-open.menu-active {
   display: inline;
+  font-size: 16px;
+
 }
 
 #menu-closed.menu-active {
   display: none;
 }
 footer {
-  background-color: #f07167;
-  color: white;
+  background-color: var(--bg-color);
+  /* color: white; */
 }
+
 .logoFooter {
-  width: 100px;
-  margin: 30px;
+  width: 100%;
   border-radius: 10px;
 }
-
-.foot {
-  display: grid;
-  grid-template-areas:
-    "l  a"
-    "s c"
-    "y y";
-}
-
-#logo {
-  grid-area: l;
+.logo {
+  border-radius: 100px;
 }
 .logom {
   width: 52px;
-  margin-top: 20px;
 }
-
-.address {
-  grid-area: a;
-  justify-self: center;
-  align-self: center;
-}
-
-.contact {
-  grid-area: c;
-  padding: 10px;
-}
-
-.info {
-  grid-area: s;
-  padding: 10px;
+.informacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 #last {
   grid-area: y;
   text-align: center;
-  margin-top: 60px;
 }
 
 #landscape {
@@ -250,7 +238,7 @@ footer {
 
 #greet.active {
   display: flex;
-  background-color: #F07167;
+  background-color: #f07167;
   color: black;
   font-size: 17px;
   font-weight: bolder;
@@ -260,11 +248,7 @@ footer {
   font-size: 1.8em;
   top: 10%;
   width: fit-content;
-  background-color: #264a41;
   color: black;
-}
-#welcome:hover {
-  background-color: #bde8d3;
 }
 
 .join {
@@ -274,7 +258,7 @@ footer {
 .start {
   width: 120px;
   text-decoration: none;
-  background-color: #f9edcc;
+  background-color: #264A41;
   color: #bde8d3;
   font-size: 1.5em;
   padding: 10px 10px;
@@ -304,8 +288,8 @@ h1 {
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding: 1rem;
-  background-color: #db4c40;
-  color: white;
+  background-color: #bde8d3;
+  color: #264A41;
   font-size: 1.5em;
 }
 .stats-grandFather {
@@ -315,14 +299,17 @@ h1 {
 .discover {
   border: 1px solid black;
   text-align: center;
-  background-color: #db4c40;
+  background-color: #bde8d3;
   margin-bottom: 5em;
 }
 .discover h3 {
-  color: white;
+  color: #264A41;
   font-size: 1.5em;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
+}
+.directory-cards section img{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .images {
   padding-top: 0.5em;
@@ -332,6 +319,12 @@ h1 {
 }
 .discover p {
   margin-bottom: 0.5em;
+}
+#directory-data img {
+  padding: 0px;
+  margin: 0px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  width: 200px;
 }
 
 form fieldset,
@@ -384,7 +377,7 @@ form label.select {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   align-content: center;
-  background-color: #f9edcc;
+  background-color: var(--bg-color);
 }
 .grid-1 {
   display: grid;
@@ -430,39 +423,40 @@ form label.select {
   font-size: 18px;
   color: black;
   font-weight: bold;
+  border-radius: 50px;
 }
 
 #directory-selector button {
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 5px;
-  background-color: #BDE8D3;
+  background-color: #bde8d3;
   border: 1px black solid;
+  border-radius: 50px;
 }
 
 #directory-selector button.active {
-  background-color: #F07167;
-  color: #264A41;
+  background-color: #f07167;
+  color: #264a41;
 }
 
 .directory-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
   justify-items: center;
 }
 
 .directory-cards section {
   text-align: center;
-  border: 5px solid black;
   width: 300px;
-  background-color: #db4c40;
+  background-color: #bde8d3;
   color: black;
   padding: 1rem;
   margin: 0.51rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .directory-cards .gold-member {
-  border: 7px solid gold;
   background-color: #bde8d3;
 }
 .directory-cards a {
@@ -470,7 +464,7 @@ form label.select {
   font-size: 18px;
 }
 .directory-cards p {
-  font-size: 22px;
+  font-size: 16px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -495,11 +489,11 @@ form label.select {
 }
 
 .directory-list section:nth-child(odd) {
-  background-color: grey;
+  background-color: #BDE8D3;
 }
 
 .directory-list section:nth-child(even) {
-  background-color: white;
+  background-color: #edfbfa;
 }
 .directory-list .gold-member::after {
   content: "(Gold Member)";
@@ -509,6 +503,7 @@ form label.select {
 }
 .font {
   font-size: 16px;
+  color: black;
 }
 .imgthank {
   display: flex;
@@ -552,7 +547,7 @@ li {
   .main-form {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color: #f9edcc;
+    background-color: var(--bg-color);
     padding: 20px;
   }
   #background {
@@ -566,6 +561,10 @@ li {
     flex-direction: column;
     align-items: center;
   }
+  .logo {
+    width: 50px;
+    border-radius: 50px;
+  }
 
   #welcome {
     font-size: 14px;
@@ -575,5 +574,49 @@ li {
   }
   .imgthank img {
     width: 300px;
+  }
+  .informacion {
+    display: grid;
+    justify-content: center;
+    /* grid-template-columns: 1fr; */
+    /* display: grid;
+
+    padding: 5px;
+    */
+    row-gap: 10px;
+    grid-template:
+      "logo info" auto
+      "contact contact" auto
+      "address address" auto;
+  }
+
+  .logo_foot {
+    grid-area: logo;
+    width: 50px;
+  }
+  .info {
+    grid-area: info;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: contact;
+  }
+
+  .contact > h5 {
+    white-space: nowrap;
+    width: min-content;
+  }
+  .address {
+    /* margin-right: 10px; */
+    grid-area: address;
+  }
+  .logom {
+    width: 30px
+  }
+  .directory-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
   }
 }

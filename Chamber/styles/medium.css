@@ -17,20 +17,25 @@
   #a {
     grid-area: m1;
     position: relative;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
   #b {
     grid-area: m5;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
   #c {
     display: grid;
     grid-area: m6;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
   #d {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     grid-area: m2;
   }
   #j {
     grid-area: m4;
     position: relative;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
   #spotlights {
     grid-area: m3;
@@ -41,10 +46,12 @@
   }
   #e {
     grid-area: s1;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
 
   #f {
     grid-area: s2;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
   #hamburger-menu {
     display: inline;
@@ -159,5 +166,12 @@
   .contact2 {
     padding: 4vw;
     width: 600px;
+  }
+  .logo_foot {
+    grid-area: logo;
+    width: 100px;
+  }
+  .logom {
+    width: 50px
   }
 }
