@@ -436,8 +436,8 @@ form label.select {
 }
 
 #directory-selector button.active {
-  background-color: #f07167;
-  color: #264a41;
+  background-color: #264a41;
+  color: white;
 }
 
 .directory-cards {
