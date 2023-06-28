@@ -10,7 +10,6 @@
       "membershipLevel": "gold",
       "alt_text": "Gecko Grill Logo",
       "target": "_blank"
-
     },
     {
       "name": "Western Skies Golf Club",
@@ -22,7 +21,6 @@
       "membershipLevel": "silver",
       "alt_text": "Western Skies Logo",
       "target": "_blank"
-
     },
     {
       "name": "Paul Kelly Maxillofacial",
@@ -34,7 +32,6 @@
       "membershipLevel": "gold",
       "alt_text": "Kelly Maxillofacial Logo",
       "target": "_blank"
-
     },
     {
       "name": "Banner Health",
@@ -46,7 +43,6 @@
       "membershipLevel": "gold",
       "alt_text": "Banner Health Logo",
       "target": "_blank"
-
     },
     {
       "name": "Main Event Entertainment",
@@ -58,7 +54,6 @@
       "membershipLevel": "silver",
       "alt_text": "Main Event Logo",
       "target": "_blank"
-
     },
     {
       "name": "Kneaders",
@@ -70,7 +65,6 @@
       "membershipLevel": "silver",
       "alt_text": "Kneaders Logo",
       "target": "_blank"
-
     },
     {
       "name": "Top Golf",
@@ -93,7 +87,6 @@
       "membershipLevel": "silver",
       "alt_text": "Jamba Juice Logo",
       "target": "_blank"
-
     },
     {
       "name": "The Habit Burger Grill",
@@ -105,7 +98,6 @@
       "membershipLevel": "gold",
       "alt_text": "Habit Logo",
       "target": "_blank"
-
     },
 
     {
@@ -118,7 +110,6 @@
       "membershipLevel": "gold",
       "alt_text": "Description of layout",
       "target": "_blank"
-
     }
   ]
 }
