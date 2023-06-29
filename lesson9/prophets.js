@@ -94,8 +94,6 @@ function filterProphets() {
   const filteredProphets = prophets.filter((prophet) => {
     return prophet.length >= 10;
   });
-  console.log(prophets);
-  console.log(filteredProphets);
 
   displayProphets(filteredProphets);
 }

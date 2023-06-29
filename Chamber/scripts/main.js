@@ -22,10 +22,8 @@ function displaySpotlights(businessList) {
     spotlights.push(businessList.splice(elt, 1));
   }
 
-  console.log(spotlights);
   const cards = document.querySelector(".directory-cards"); // select the output container element
   for (let j = 0; j < 3; j++) {
-    console.log(spotlights[j]);
     let card = document.createElement("section");
     card.innerHTML = `
         <img src="${spotlights[j][0].imageURL}" alt="${spotlights[j][0].alt_text}">

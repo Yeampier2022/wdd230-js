@@ -13,4 +13,3 @@ else{
 }
 localStorage.setItem("lastVisit", today1.toLocaleDateString());
 
-console.log("visit")

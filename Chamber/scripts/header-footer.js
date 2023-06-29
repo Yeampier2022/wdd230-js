@@ -21,5 +21,4 @@ const Fecha = document.querySelector("#dates").textContent=`Last Updated: ${day}
   const fulldate = new Intl.DateTimeFormat("en-US", {
     dateStyle: "full",
   }).format(now);
-  console.log(datefield);
   datefield.textContent = fulldate;

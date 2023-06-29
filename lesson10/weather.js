@@ -25,13 +25,11 @@ async function apiFetch() {
     const response = await fetch(apiURL);
     if (response.ok) {
       const data = await response.json();
-      console.log(data); // this is for testing the call
       displayResults(data);
     } else {
         throw Error(await response.text());
     }
   } catch (error) {
-      console.log(error);
   }
 }
 
@@ -50,7 +48,4 @@ var f = (c+3) > a; // false
 var op1 = d && e; // false
 var op2 = f && e;// false
 var op3 = (d || f) && (!e || f); // false and // false 
-console.log("Op1: " + op1); //false 
-console.log("Op2: " + op2);//false
-console.log("Op3: " + op3);//true
 

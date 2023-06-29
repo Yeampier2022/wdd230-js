@@ -46,13 +46,11 @@ async function apiFetch() {
     const response = await fetch(apiURL);
     if (response.ok) {
       const data = await response.json();
-      console.log(data); // this is for testing the call uncomment the following line when ready
       displayResults(data);
     } else {
       throw Error(await response.text());
     }
   } catch (error) {
-    console.log(error);
   }
 }
 ``;
