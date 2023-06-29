@@ -62,11 +62,7 @@
     top: 6%;
     width: fit-content;
     left: 25%;
-    color: white;
-  }
-  #welcome:hover {
-    background-color: var(--bg-color);
-    color: #053c5e;
+    color: #264a41;
   }
   .join {
     display: flex;
