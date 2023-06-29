@@ -561,6 +561,12 @@ li {
 .contact-page{
   padding: 10px;
 }
+#directory-grid{
+  cursor: pointer;
+}
+#directory-list{
+  cursor: pointer;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .main-form {
