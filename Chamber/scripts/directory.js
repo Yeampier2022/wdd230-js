@@ -1,4 +1,3 @@
-// Toggle active/not active buttons
 
 var gridSelector = document.querySelector("#directory-grid");
 var listSelector = document.querySelector("#directory-list");
@@ -34,7 +33,7 @@ const displayBusinesses = (businesss) => {
     <p>${business.name}</p>
     <p>${business.streetAddress}</p>
     <p>${business.cityStateZip}</p>
-    <p><a target="${business.target}"   href="${business.websiteURL}">${business.websiteURL}</a></p>
+    <p><a   href="${business.websiteURL}"  target="${business.target}" >${business.websiteURL}</a></p>
     `;
     if (business.membershipLevel == "gold") {
       card.classList.add("gold-member");
