@@ -161,7 +161,9 @@ body {
   border: 1px solid black;
   color: white;
   margin-right: 10px;
+  cursor: pointer;
 }
+
 #navbar {
   display: none;
 }
