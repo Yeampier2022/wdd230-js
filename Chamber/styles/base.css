@@ -191,7 +191,8 @@ footer {
   border-radius: 10px;
 }
 .logo {
-  border-radius: 100px;
+  width: 50px;
+
 }
 .logom {
   width: 52px;
@@ -589,7 +590,7 @@ li {
   }
   .logo {
     width: 50px;
-    border-radius: 50px;
+    border-radius: 30px;
   }
 
   #welcome {
