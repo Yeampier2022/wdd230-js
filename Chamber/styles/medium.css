@@ -174,4 +174,17 @@
   .logom {
     width: 50px
   }
+  .contact2{
+    padding: 2vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .Address-h1{
+    text-align: center;
+  }
+  .contact3{
+    width: 400px;
+  }
+  
 }
