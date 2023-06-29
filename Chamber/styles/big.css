@@ -205,10 +205,11 @@
     height: 450px;
   }
   .Address-h1 {
-    text-align: left;
+    text-align: center;
   }
   .map{
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
+    margin-left: 25px;
   }
 }
