@@ -23,17 +23,40 @@ function displaySpotlights(businessList) {
   }
 
   const cards = document.querySelector(".directory-cards"); // select the output container element
-  for (let j = 0; j < 3; j++) {
-    let card = document.createElement("section");
+
+  function createCard(spotlight) {
+    const card = document.createElement("section");
+    card.classList.add("card");
     card.innerHTML = `
-        <img src="${spotlights[j][0].imageURL}" alt="${spotlights[j][0].alt_text}">
-        <p>${spotlights[j][0].name}</p>
-        <p>${spotlights[j][0].streetAddress}</p>
-        <p>${spotlights[j][0].cityStateZip}</p>
-        <p><a href="${spotlights[j][0].websiteURL}">${spotlights[j][0].websiteURL}</a></p>
-        `;
-    cards.appendChild(card);
+    <img src="${spotlight.imageURL}" alt="${spotlight.alt_text}">
+    <p>${spotlight.name}</p>
+    <p>${spotlight.streetAddress}</p>
+    <p>${spotlight.cityStateZip}</p>
+    <p><a href="${spotlight.websiteURL}">${spotlight.websiteURL}</a></p>
+  `;
+    return card;
   }
+
+  function showCards(spotlights) {
+    cards.innerHTML = "";
+
+    if (window.innerWidth >= 900) {
+      for (let i = 0; i < 3; i++) {
+        const card = createCard(spotlights[i][0]);
+        cards.appendChild(card);
+      }
+    }
+    else {
+      for (let i = 0; i < 2; i++) {
+        const card = createCard(spotlights[i][0]);
+        cards.appendChild(card);
+
+      
+      }
+    }
+  }
+
+  showCards(spotlights);
 }
 
 async function getBusinessData() {
