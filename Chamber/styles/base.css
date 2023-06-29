@@ -130,27 +130,32 @@ body {
   grid-area: s1;
   padding: 0;
   position: relative;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 #b {
   grid-area: s2;
   padding: 0;
   color: black;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 #c {
   grid-area: s3;
   color: black;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 #d {
   grid-area: s4;
   color: black;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 #e {
   grid-area: s5;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 #hamburger-menu {
@@ -158,6 +163,7 @@ body {
   font-size: 2rem;
   border: 1px solid black;
   color: white;
+  margin-right: 10px;
 }
 
 #navbar {
@@ -174,13 +180,11 @@ body {
 
 #navbar.menu-active {
   display: flex;
-  
 }
 
 #menu-open.menu-active {
   display: inline;
   font-size: 16px;
-
 }
 
 #menu-closed.menu-active {
@@ -258,7 +262,7 @@ footer {
 .start {
   width: 120px;
   text-decoration: none;
-  background-color: #264A41;
+  background-color: #264a41;
   color: #bde8d3;
   font-size: 1.5em;
   padding: 10px 10px;
@@ -289,7 +293,7 @@ h1 {
   margin-bottom: 3rem;
   padding: 1rem;
   background-color: #bde8d3;
-  color: #264A41;
+  color: #264a41;
   font-size: 1.5em;
 }
 .stats-grandFather {
@@ -303,13 +307,14 @@ h1 {
   margin-bottom: 5em;
 }
 .discover h3 {
-  color: #264A41;
+  color: #264a41;
   font-size: 1.5em;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
 }
-.directory-cards section img{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+.directory-cards section img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .images {
   padding-top: 0.5em;
@@ -323,7 +328,8 @@ h1 {
 #directory-data img {
   padding: 0px;
   margin: 0px;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   width: 200px;
 }
 
@@ -489,7 +495,7 @@ form label.select {
 }
 
 .directory-list section:nth-child(odd) {
-  background-color: #BDE8D3;
+  background-color: #bde8d3;
 }
 
 .directory-list section:nth-child(even) {
@@ -504,6 +510,10 @@ form label.select {
 .font {
   font-size: 16px;
   color: black;
+}
+.letter-h5 {
+  color: #264a41;
+  font-size: 18px;
 }
 .imgthank {
   display: flex;
@@ -616,20 +626,20 @@ li {
     grid-area: address;
   }
   .logom {
-    width: 30px
+    width: 30px;
   }
   .directory-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     justify-items: center;
   }
-  .address-map{
-    width:300px;
-  }
-  .contact3{
+  .address-map {
     width: 300px;
   }
-  .Address-h1{
+  .contact3 {
+    width: 300px;
+  }
+  .Address-h1 {
     text-align: center;
   }
 }
