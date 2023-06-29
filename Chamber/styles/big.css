@@ -214,4 +214,8 @@
     height: 300px;
     margin-left: 25px;
   }
+  .directory-cards section {
+    width: 400px;
+    height: 250px;
+  }
 }
