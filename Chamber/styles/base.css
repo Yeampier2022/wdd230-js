@@ -26,6 +26,7 @@ body header {
 #fb,
 #insta {
   grid-column: 3;
+  text-decoration: none;
 }
 #fb {
   padding-bottom: 0;
