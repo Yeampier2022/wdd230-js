@@ -52,6 +52,7 @@ nav ul li {
   text-align: center;
   color: #264a41;
   background-color: #bde8d3;
+  transition: .5s;
 }
 nav ul li:hover {
   background-color: #f07167;
