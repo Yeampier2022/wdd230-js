@@ -6,7 +6,7 @@ body {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
-  background-color: #f07167;
+  background-color: #fff9eb;
 }
 
 .header a {
@@ -26,13 +26,12 @@ body {
 }
 
 .header a:hover {
-  background-color: #fed9b7;
-  color: #f07167;
+  color: black;
 }
 
 .header a.active {
   background-color: #bde8d3;
-  color: white;
+  color: black;
 }
 
 .header-right {
@@ -146,7 +145,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100px;
-  background-color: #f07167;
+  background-color: #fff9eb;
 }
 @media screen and (max-width: 500px) {
   .header a {
