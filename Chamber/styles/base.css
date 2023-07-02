@@ -660,4 +660,13 @@ li {
   #j{
     display: none;
   }
+  .directory-cards p {
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .directory-list section {
+    display: flex;
+flex-direction: column;
+  }
 }
