@@ -121,7 +121,9 @@ tr:nth-child(even) {
 }
 .color3 {
   background-color: #264a41;
+  color: white;
 }
+
 .color4 {
   color: white;
   background-color: black;
