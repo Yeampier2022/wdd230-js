@@ -6,3 +6,7 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  fetch('https://brotherblazzard.github.io/canvas-content/fruit.json')
+  .then(response => response.json())
+  .then(data => console.log(data));

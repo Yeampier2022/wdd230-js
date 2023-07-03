@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+:root {
+  --color-primary: #bd1b33;
+  --color-secondary: #9da421;
+  --color-tertiary: #747a0e;
+  --color-quaternary: #f14d45;
+  --color-quinary: #f2cf13;
+}
+
 body {
   font-family: "Montserrat";
 }
@@ -6,18 +15,18 @@ body {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
-  background-color: #fff9eb;
 }
 
 .header a {
   float: left;
-  color: #2f5249;
+  color: var(--color-secondary);
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
+  font-weight: bold;
 }
 
 .header a.logo {
@@ -26,12 +35,13 @@ body {
 }
 
 .header a:hover {
-  background-color: #fed9b7;
-  color: #f07167;
+  background-color: var(--color-quinary);
+  color: white;
+  opacity: 0.5;
 }
 
 .header a.active {
-  background-color: #bde8d3;
+  background-color: var(--color-secondary);
   color: white;
 }
 
@@ -41,8 +51,27 @@ body {
 .title {
   text-align: center;
 }
+.main-img {
+  width: 100%;
+  padding: 10px;
+}
 
-
+.img-lemon {
+  width: 300px;
+}
+.purpose {
+  width: 92%;
+  padding: 10px;
+  background-color: var(--color-secondary);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+p {
+  text-align: left;
+}
+h2 {
+  margin: 0px;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .header a {
