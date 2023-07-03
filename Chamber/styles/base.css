@@ -232,7 +232,6 @@ footer {
 }
 
 #greet.active {
-  display: flex;
   background-color: #f07167;
   color: black;
   font-size: 17px;

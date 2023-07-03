@@ -122,6 +122,7 @@ tr:nth-child(even) {
 .color3 {
   background-color: #264a41;
   color: white;
+  font-weight: 700;
 }
 
 .color4 {
