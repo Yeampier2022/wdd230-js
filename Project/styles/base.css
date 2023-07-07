@@ -21,7 +21,7 @@ body {
 
 .header a {
   float: left;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -43,7 +43,7 @@ body {
 }
 
 .header a.active {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   color: white;
 }
 
@@ -153,6 +153,75 @@ footer {
   margin-bottom: 20px;
   background-color: var(--color-secondary);
   border-radius: 10px;
+}
+.main-form {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: var(--bg-color);
+  padding: 20px;
+}
+.grid-1 {
+  margin-bottom: 20px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+form label.person {
+  display: block;
+  padding-top: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+form label.person input,
+form label.select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.5rem;
+  max-width: 25rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+.person input:required {
+  border: #bde8d3 solid 2px;
+}
+
+.person input:required:valid {
+  border: #bde8d3 solid 2px;
+}
+
+.person input:not([required]) {
+  border: #bde8d3 2px;
+}
+.member-2 {
+  font-size: 16px;
+}
+
+.submit-button {
+  background-color: #bde8d3;
+  color: #264a41;
+  border-radius: 1rem;
+  width: 120px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.membership {
+  border: 1px solid black;
+  padding: 12px;
+  display: grid;
+  grid-area: 2/1;
+}
+.address-map {
+  width: 300px;
+}
+.Address-h1 {
+  text-align: center;
+}
+.contact-page {
+  padding: 10px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {

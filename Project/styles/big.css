@@ -84,4 +84,20 @@
   .dateActual{
     margin: 0px;
   }
+  .address-map {
+    width: 600px;
+    height: 450px;
+  }
+  .Address-h1 {
+    text-align: center;
+  }
+  .map {
+    width: 500px;
+    height: 300px;
+    margin-left: 25px;
+  }
+  .directory-cards section {
+    width: 400px;
+    height: 250px;
+  }
 }
