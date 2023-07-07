@@ -8,7 +8,7 @@
   }
   .img-lemon {
     height: 600px;
-    width: 600px;
+    width: 600px; 
   }
   .purpose {
     height: 160px;
@@ -99,5 +99,21 @@
   .directory-cards section {
     width: 400px;
     height: 250px;
+  }
+  .main-form {
+    display: flex !important;
+    justify-content: space-evenly !important;
+    margin-bottom: 40px;
+  }
+  .membership {
+    max-width: none;
+    height: 600px;
+    width: 600px;
+  }
+  .grid-1 {
+    width: 600px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   }
 }
