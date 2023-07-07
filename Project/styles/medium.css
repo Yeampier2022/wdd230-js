@@ -1,2 +1,60 @@
 @media screen and (min-width: 800px) and (max-width: 1199px) {
+  .main-father {
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  .purpose {
+    width: 96%;
+    margin-bottom: 0px;
+  }
+  .purpose-2 {
+    width: 93%;
+    margin-bottom: 0px;
+  }
+  .Weather {
+    width: 90%;
+    margin-bottom: 0px;
+  }
+  .img-lemon {
+    height: 600px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .date-mobible {
+    display: flex;
+    justify-content: center;
+  }
+  .dateActual {
+    margin: 0px
+}
+  .date {
+    padding: 0px;
+  }
+  .gmail {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  .gmail p {
+    margin-right: 20px;
+  }
+  .footer-large {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .social {
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .container-f{
+    width: 200px;
+    margin: 0px;
+  }
+  .social img {
+    margin-left: 5px;
+  }
 }
