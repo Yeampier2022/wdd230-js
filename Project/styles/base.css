@@ -37,9 +37,13 @@ body {
 }
 
 .header a:hover {
-  background-color: var(--color-quinary);
+  background-color: #f14d45;
   color: white;
   opacity: 0.5;
+}
+.a-fresh{
+  color: #bd1b33;
+font-weight: bolder;
 }
 
 .header a.active {
@@ -93,7 +97,7 @@ h2 {
   text-align: center;
 }
 footer {
-  background-color: #fff9eb;
+  background-color: #f1f1f1;
 }
 .container-f {
   display: flex;
