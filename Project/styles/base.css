@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
 
 :root {
   --color-primary: #bd1b33;
@@ -9,10 +9,21 @@
 }
 
 body {
-  font-family: "Montserrat";
+  font-family: "Noto Sans JP", sans-serif;
   overflow-x: hidden;
-
 }
+.main-fresh {
+  background-image: url("../images/rodajas-frutas-bayas-sobre-fondo-amarillo_23-2148144274.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 800px;
+}
+.form-fresh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -41,9 +52,9 @@ body {
   color: white;
   opacity: 0.5;
 }
-.a-fresh{
+.a-fresh {
   color: white;
-font-weight: bolder;
+  font-weight: bolder;
 }
 
 .header a.active {
@@ -149,6 +160,7 @@ footer {
 .social img {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
 .Weather {
@@ -169,7 +181,7 @@ footer {
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
     rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    padding: 20px;
+  padding: 20px;
 }
 form label.person {
   display: block;
@@ -190,11 +202,11 @@ form label.select {
   color: black;
 }
 .person input:required {
-  border: #bde8d3 solid 2px;
+  border: var(--color-quinary) solid 2px;
 }
 
 .person input:required:valid {
-  border: #bde8d3 solid 2px;
+  border: var(--color-quinary) solid 2px;
 }
 
 .person input:not([required]) {
@@ -228,6 +240,38 @@ form label.select {
 .contact-page {
   padding: 10px;
 }
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 200px 200px;
+}
+
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .header a {

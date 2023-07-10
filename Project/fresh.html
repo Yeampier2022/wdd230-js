@@ -32,6 +32,118 @@
         <a href="./about.html">About me </a>
       </div>
     </div>
+
+    <!-- <main  id="fresh-main">
+      <h1>Prepara tu bebida a tu gusto</h1>
+      <form class="form-fresh" action="">
+        <div>
+        <div id="input-first-name" class="input-div">
+          <label for="first-name">First name</label>
+          <input type="text" name="first-name" id="first-name" />
+        </div>
+
+        <div id="input-email" class="input-div">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div id="input-phone" class="input-div">
+          <label for="phone">Phone</label>
+          <input type="number" name="phone" id="phone" />
+        </div>
+
+        <div id="fruit-input" class="input-div">
+          <label for="fruit-1">Choose your fruit</label>
+          <select name="fruit-1" id="fruit-1"></select>
+        </div>
+
+        <div id="fruit-input" class="input-div">
+          <label for="fruit-2">Choose your fruit</label>
+          <select name="fruit-2" id="fruit-2"></select>
+        </div>
+
+        <div id="fruit-input" class="input-div">
+          <label for="fruit-3">Choose your fruit</label>
+          <select name="fruit-3" id="fruit-3"></select>
+        </div>
+      </div>
+
+        <div id="extra-input" class="input-div">
+          <textarea
+            name="extra"
+            id=""
+            cols="40"
+            rows="10"
+            placeholder="Add any extra instructions"
+          ></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="form-result"></div>
+    </main> -->
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="lname"
+          name="lastname"
+          placeholder="example@gmail.com"
+        />
+        <label for="email">phone</label>
+        <input
+          type="phone"
+          id="lname"
+          name="lastname"
+          placeholder="04121660658"
+        />
+
+        <div id="fruit-input" class="input-div">
+          <label for="fruit-1">Choose your fruit</label>
+          <select name="fruit-1" id="fruit-1"></select>
+        </div>
+
+        <div id="fruit-input" class="input-div">
+          <label for="fruit-2">Choose your fruit</label>
+          <select name="fruit-2" id="fruit-2"></select>
+        </div>
+
+        <div id="fruit-input" class="input-div">
+          <label for="fruit-3">Choose your fruit</label>
+          <select name="fruit-3" id="fruit-3"></select>
+        </div>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
     <footer>
       <div class="footer-large">
         <div class="container-f">
@@ -53,15 +165,17 @@
         </div>
       </div>
 
-        <div class="date-mobible">
-          <div class="date">
-            <p id="profile"></p>
-          </div>
-          <div class="dateActual">
-            <p id="dates"></p>
-          </div>
+      <div class="date-mobible">
+        <div class="date">
+          <p id="profile"></p>
         </div>
+        <div class="dateActual">
+          <p id="dates"></p>
+        </div>
+      </div>
     </footer>
+
     <script src="./script/index.js"></script>
+    <script src="./script/fruits.js"></script>
   </body>
 </html>

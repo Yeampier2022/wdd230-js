@@ -2,6 +2,8 @@ const currentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather");
 const captionDesc = document.querySelector("#description");
 const windspeed = document.querySelector("#windspeed");
+const humidity = document.querySelector("#humidity");
+
 const LAT = "36.778259";
 const LON = "-119.417931";
 const APIKEY = "aeac4c8af619ecc4c6319897ce68d202";
@@ -15,13 +17,12 @@ function displayResults(weatherData) {
   const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`;
   const desc = weatherData.weather[0].description;
   const wind_value = weatherData.wind.speed;
-
-
-
+  const humidity_value = weatherData.main.humidity;
 
   weatherIcon.setAttribute("src", iconsrc);
   weatherIcon.setAttribute("alt", desc);
   captionDesc.textContent = desc;
+  humidity.textContent = humidity_value;
 
   windspeed.textContent = wind_value;
 
@@ -50,13 +51,8 @@ async function apiFetch() {
     } else {
       throw Error(await response.text());
     }
-  } catch (error) {
-  }
+  } catch (error) {}
 }
 ``;
 
 apiFetch();
-
-
-
-
