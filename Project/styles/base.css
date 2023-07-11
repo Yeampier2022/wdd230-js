@@ -241,8 +241,33 @@ form label.select {
   padding: 10px;
 }
 
-
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="tel"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -253,8 +278,8 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #04AA6D;
+input[type="submit"] {
+  background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -262,16 +287,35 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 200px 200px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.title-fesh {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
+#form-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/c83b2e66b2f3243dcc52fd4ba8909309.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 800px;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .header a {
@@ -282,5 +326,16 @@ input[type=submit]:hover {
 
   .header-right {
     float: none;
+  }
+  .title-fesh {
+    display: none;
+  }
+  .title-mobile {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
   }
 }
