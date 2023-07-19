@@ -15,7 +15,10 @@ body {
 .main-fresh {
   background-image: url("../images/rodajas-frutas-bayas-sobre-fondo-amarillo_23-2148144274.png");
   background-repeat: no-repeat;
-  background-size: 100vw 800px;
+  background-size: 100vw auto;
+}
+.try {
+  background: #f7f2ef;
 }
 .form-fresh {
   display: flex;
@@ -295,7 +298,6 @@ input[type="submit"]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 5px;
-  margin-bottom: 20px;
 }
 .title-fesh {
   display: flex;
@@ -314,7 +316,7 @@ input[type="submit"]:hover {
   align-items: center;
   background-image: url("../images/c83b2e66b2f3243dcc52fd4ba8909309.jpg");
   background-repeat: no-repeat;
-  background-size: 100vw 800px;
+  background-size: auto 100%;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {

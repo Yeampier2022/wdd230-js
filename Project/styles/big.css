@@ -119,7 +119,8 @@
     padding: 300px 300px;
     background-image: url("../images/composicion-horizontal-frutas-verduras_1284-29854.png");
     background-repeat: no-repeat;
-    background-size: 100vw 1600px;
+    background-size: 100vw auto;
+    background-position: bottom;
   }
   .title-mobile {
     display: none;

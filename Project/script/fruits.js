@@ -1,5 +1,3 @@
-// open the fruits.json file and create a select option for each fruit
-
 document.addEventListener("DOMContentLoaded", () => {
   let selects = document.querySelectorAll("select");
   fetch("./json/fruits.json").then((data) =>
@@ -14,8 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     })
   );
-
-  // when the form is submitted, create a new element for each input and append it to the result div
 
   document.querySelector("form").addEventListener("submit", (e) => {
     e.preventDefault();
