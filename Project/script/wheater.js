@@ -4,12 +4,38 @@ const captionDesc = document.querySelector("#description");
 const windspeed = document.querySelector("#windspeed");
 const humidity = document.querySelector("#humidity");
 
+
+
+const forecast = document.querySelector(".day-temperature");
+const day1 = document.querySelector(".day1");
+const day2 = document.querySelector(".day2");
+const day3 =document.querySelector(".day3");
+
+
 const LAT = "36.778259";
 const LON = "-119.417931";
 const APIKEY = "aeac4c8af619ecc4c6319897ce68d202";
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`;
+const dailyForecast = "https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&cnt=24&units=imperial&appid=e69048b761c63a420dffdb9b14015220"
+
+
+async function apiFetch(apiURL) {
+  try {
+    const response = await fetch(apiURL);
+    if (response.ok) {
+      const data = await response.json();
+      displayResults(data);
+    } else {
+      throw Error(await response.text());
+    }
+  } catch (error) {}
+}
+
+apiFetch(apiURL);
+apiFetch(dailyForecast)
 
 function displayResults(weatherData) {
+  if(weatherData.main){
   currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(
     0
   )}</strong>`;
@@ -26,7 +52,41 @@ function displayResults(weatherData) {
 
   windspeed.textContent = wind_value;
 
+
   const windChillSpan = document.querySelector("#windchill");
+  }
+
+  if(weatherData.list){
+    const dayone = weatherData.list[6];
+    const daytwo = weatherData.list[14];
+    const daythree = weatherData.list[22];        
+
+    day1.innerHTML = `<h5>Tomorrow</h5>
+                    <img src="${`https://openweathermap.org/img/w/${dayone.weather[0].icon}.png`}" alt="${dayone.weather[0].description}" loading="lazy">
+                    <p><span>${dayone.weather[0].description
+                        .split(" ")
+                        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                        .join(" ")}</span></p>
+                    <p><b>Max Temp</b>: <span>${dayone.main.temp_max.toFixed(0)}</span> °F</p>`;
+
+    day2.innerHTML = `<h5>2 Days</h5>
+                    <img src="${`https://openweathermap.org/img/w/${daytwo.weather[0].icon}.png`}" alt="${daytwo.weather[0].description}" loading="lazy">
+                    <p><span>${daytwo.weather[0].description
+                        .split(" ")
+                        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                        .join(" ")}</span></p>
+                    <p><b>Max Temp</b>: <span>${daytwo.main.temp_max.toFixed(0)}</span> °F</p>`;
+
+    day3.innerHTML = `<h5>3 Days</h5>
+                    <img src="${`https://openweathermap.org/img/w/${daythree.weather[0].icon}.png`}" alt="${daythree.weather[0].description}" loading="lazy">
+                    <p><span>${daythree.weather[0].description
+                        .split(" ")
+                        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                        .join(" ")}</span></p>
+                    <p><b>Max Temp</b>: <span>${daythree.main.temp_max.toFixed(0)}</span> °F</p>`;
+
+
+}
 
   let windchill = "N/A";
   if (wind_value >= 3.0 && weatherData.main.temp.toFixed(0) <= 50) {
@@ -42,17 +102,8 @@ function displayResults(weatherData) {
   windChillSpan.innerHTML = windchill;
 }
 
-async function apiFetch() {
-  try {
-    const response = await fetch(apiURL);
-    if (response.ok) {
-      const data = await response.json();
-      displayResults(data);
-    } else {
-      throw Error(await response.text());
-    }
-  } catch (error) {}
-}
+
 ``;
 
-apiFetch();
+
+

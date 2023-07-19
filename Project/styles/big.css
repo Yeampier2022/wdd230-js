@@ -4,8 +4,28 @@
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
+    height: 600px;
   }
+  .day-temperature {
+    display: grid;
+    grid-area: 2/2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: #9da421;
+    width: 97.5%;
+  }
+
+  .style-temperature {
+    display: flex;
+    justify-content: space-around;
+  border-radius: 10px;
+
+  }
+
   .img-lemon {
     height: 600px;
     width: 600px;
@@ -21,6 +41,8 @@
   .Weather {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 160px;
+    margin-bottom: 0px;
   }
   .informacion-weather p {
     margin: 0px;
